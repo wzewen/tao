@@ -1,0 +1,9 @@
+运行结果：
+thread name:A, into ...
+false
+true
+false
+true
+
+    方法 boolean hasQueuedThread(Thread thread) 的作用是查询指定的线程是否正在等待获取此锁定。
+    方法 boolean hasQueuedThreads() 的作用是查询是否有线程正在等待获取此锁定。

@@ -1,0 +1,14 @@
+运行结果：
+now time:2019-10-17 14:58:20
+plan task start time:2019-10-17 14:58:30
+A task start running...
+A task cancel self.
+B task running start time:2019-10-17 14:58:30
+B task running start time:2019-10-17 14:58:33
+B task running start time:2019-10-17 14:58:36
+B task running start time:2019-10-17 14:58:39
+B task running start time:2019-10-17 14:58:42
+B task running start time:2019-10-17 14:58:45
+...
+
+    TimerTask类中的cancel()方法的作用是将自身从任务队列中进行清除。

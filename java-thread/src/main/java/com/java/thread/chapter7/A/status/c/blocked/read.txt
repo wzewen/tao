@@ -1,0 +1,6 @@
+运行结果：
+thread name:T1, into method ...
+thread t2 status --> BLOCKED
+thread name:T2, into method ...
+
+    BLOCKED状态出现在某一个线程在等待锁的时候。

@@ -1,0 +1,7 @@
+运行结果：
+thread name:A, get write lock time:1571214377117
+thread name:A, release write lock time:1571214387118
+thread name:B, get write lock time:1571214387119
+thread name:B, release write lock time:1571214397123
+
+    使用lock.writeLock() 的效果就是同一时间只允许一个线程执行lock() 方法后面的代码。

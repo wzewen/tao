@@ -1,0 +1,21 @@
+    关键字synchronized与wait()和notify()/notifyAll()方法结合可以实现等待/通知模式，类ReentrantLock也可以实现同样的功能，但需要借助
+Condition对象。Condition类是在JDK5中出现的技术，使用它有更好的灵活性，比如可以实现多路通知功能，也就是在一个Lock对象里面可以创建多个
+Condition（即对象监视器）实例，线程对象可以注册在指定的Condition中，从而可以有选择性的进行线程通知，在调度线程上更加灵活。
+    在使用notify()/notifyAll()方法进行通知时，被通知的线程却是由JVM随机选择的。但使用ReentrantLock集合Condition类是可以实现前面介绍
+过的"选择性通知"，这个功能是非常重要的，而且在Condition类中是默认提供的。
+    而synchronized就相当于整个Lock对象中只有一个单一的Condition对象，所有的线程都注册在它一个对象的身上。线程开始notifyAll()时，需要
+通知所有的waiting线程，没有选择权，会出现相当大的效率问题。
+
+运行结果：
+wait time:1571129670855
+signal time:1571129673858
+notify time:1571129673859
+
+    Object类中的wait()方法相当于Condition类中的await()方法。
+    Object类中的wait(long timeout)方法相当于Condition类中的await(long time, TimeUnit unit)方法。
+    Object类中的notify()方法相当于Condition类中的signal()方法。
+    Object类中的notifyAll()方法相当于Condition类中的signalAll()方法。
+
+
+
+

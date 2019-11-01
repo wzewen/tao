@@ -1,0 +1,8 @@
+运行结果：
+thread name:A run time:1571210822026
+thread name:B run time:1571210822026
+thread name:A, get lock time:1571210822028
+thread name:B, not get lock.
+
+    方法 boolean tryLock(long timeout, TimeUnit unit) 的作用是，如果锁定在给定等待时间内没有被另一个线程保持，且当前线程未被中断，
+则获取该锁定。

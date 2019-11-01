@@ -1,0 +1,7 @@
+运行结果：
+thread name:A, get lock time:1571214017951
+thread name:B, get lock time:1571214017952
+thread name:B, release lock time:1571214027957
+thread name:A, release lock time:1571214027957
+
+    从结果来看，两个线程几乎同时获取到锁。说明使用lock.readLock() 读锁可以提高程序运行效率，允许多个线程同时执行lock() 方法后面到代码。

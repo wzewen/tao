@@ -1,0 +1,6 @@
+运行结果：
+begin ...
+status --> TIMED_WAITING
+end .
+
+    线程状态 TIMED_WAITING 代表线程执行了 Thread.sleep() 方法，呈等待状态，等待时间到达，继续向下运行。

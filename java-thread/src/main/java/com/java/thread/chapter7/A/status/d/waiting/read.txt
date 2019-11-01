@@ -1,0 +1,4 @@
+运行结果：
+t status --> WAITING
+
+    状态 WAITING 是执行了Object.wait() 方法后所处的状态。

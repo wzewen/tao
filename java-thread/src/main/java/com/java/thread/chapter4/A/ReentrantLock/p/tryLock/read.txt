@@ -1,0 +1,7 @@
+运行结果：
+thread name:A, get lock.
+thread name:B, not get lock.
+
+Process finished with exit code 0
+
+    方法 boolean tryLock() 的作用是，仅在调用时锁定未被另一个线程保持的情况下，才获取该锁定。

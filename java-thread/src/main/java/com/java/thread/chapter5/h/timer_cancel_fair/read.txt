@@ -1,0 +1,17 @@
+运行结果：
+task num:0 not cancel.
+task num:1 not cancel.
+task num:177 not cancel.
+task num:211 not cancel.
+task num:220 not cancel.
+task num:223 not cancel.
+task num:224 not cancel.
+task num:232 not cancel.
+task num:233 not cancel.
+task num:244 not cancel.
+task num:245 not cancel.
+task num:246 not cancel.
+task num:247 not cancel.
+task num:249 not cancel.
+
+    Timer类中的cancel()方法有时并没有争抢到queue锁，则让TimerTask类中的任务正常执行。

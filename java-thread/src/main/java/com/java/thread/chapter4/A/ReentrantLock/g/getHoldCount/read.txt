@@ -1,0 +1,5 @@
+运行结果：
+method1 getHoldCount=1
+method2 getHoldCount=2
+
+    方法 int getHoldCount() 的作用是查询当前线程保持此锁定的个数，也就是调用 lock() 方法的次数。

@@ -1,0 +1,8 @@
+Lock的使用
+    本章介绍使用Java5中Lock对象也能实现同步的效果，而且在使用上更加方便。本章着重掌握如下2个知识点：
+    1、ReentrantLock 类的使用。
+    2、ReentrantReadWriteLock 类的使用。
+
+小结：
+    完全可以使用Lock对象将synchronized关键字替换，而且Lock具有的独特功能也是synchronized所不具有的。在学习并发时，Lock是synchronized
+关键字的进阶，掌握Lock有助于学习并发包中源代码的实现原理，在并发包中大量的类是用了Lock结果作为同步的处理方式。

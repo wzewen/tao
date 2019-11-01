@@ -1,0 +1,5 @@
+运行结果：
+wait begin
+
+    方法 condition.awaitUninterruptibly() 的使用是，线程在调用condition.await()后处于await状态，此时调用thread.interrupt()会报错
+但是使用condition.awaitUninterruptibly()后，调用thread.interrupt()则不会报错。

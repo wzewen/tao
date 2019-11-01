@@ -1,0 +1,6 @@
+运行结果：
+thread name:Thread-0, into ...
+have 9 thread waiting ...
+
+    方法 int getQueueLength() 的作用是返回等待获取此锁定的线程数，比如有5个线程，1个线程首先执行await()方法，那么在调用
+getQueueLength()方法后返回值是4，说明有4个线程同时在等待lock的释放。

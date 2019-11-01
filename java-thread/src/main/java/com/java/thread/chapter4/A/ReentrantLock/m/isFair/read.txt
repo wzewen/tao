@@ -1,0 +1,5 @@
+运行结果：
+Thread name:B, Is Fair Lock? --> false
+Thread name:A, Is Fair Lock? --> true
+
+    方法 boolean isFair() 的作用是判断是不是公平锁。

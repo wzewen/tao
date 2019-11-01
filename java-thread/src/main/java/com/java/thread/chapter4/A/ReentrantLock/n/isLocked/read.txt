@@ -1,0 +1,5 @@
+运行结果：
+lock is occupied? --> false
+lock is occupied? --> true
+
+    方法 boolean isFair() 的作用是查询此锁定是否由任意线程保持。

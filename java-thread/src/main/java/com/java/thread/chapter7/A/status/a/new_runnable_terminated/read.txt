@@ -1,0 +1,7 @@
+运行结果：
+构造方法中的状态:RUNNABLE
+main中的状态1:NEW
+run方法中的状态:RUNNABLE
+main中的状态2:TERMINATED
+
+    new状态是线程实例化后还从未执行start()方法时的状态，而runnable状态是线程进入运行的状态，terminated是线程被销毁时的状态。

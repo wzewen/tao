@@ -1,0 +1,5 @@
+运行结果：
+now time:2019-10-17 16:18:37
+task start running... time:2019-10-17 16:18:40
+
+    方法 schedule(TaskTimer task, long delay) 是以当前时间为参考，在此时间基础上延迟指定的毫秒数后执行一次TaskTimer任务。

@@ -1,0 +1,7 @@
+运行结果：
+thread name:A, get read lock time:1571214947902
+thread name:A, release read lock time:1571214950906
+thread name:B, get write lock time:1571214950907
+thread name:B, release write lock time:1571214953912
+
+    读写操作是互斥的。反之，写读操作也是互斥的。

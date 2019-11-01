@@ -1,0 +1,11 @@
+运行结果：
+now time:2019-10-17 16:44:22
+task running... time:2019-10-17 16:44:25
+task running... time:2019-10-17 16:44:30
+task running... time:2019-10-17 16:44:35
+task running... time:2019-10-17 16:44:40
+task running... time:2019-10-17 16:44:45
+...
+
+    方法 schedule(TaskTimer task, long delay, long period) 是以当前的时间为参考，在此时间上延迟delay毫秒后执行，再以period的毫秒
+值为时间间隔无限次数循环执行。

@@ -1,0 +1,17 @@
+运行结果：
+methodA begin, thread name:A, time:1571125789125
+a start ...
+aa start ...
+b start ...
+bb start ...
+
+methodA end, thread name:A, time:1571125794130
+methodA begin, thread name:AA, time:1571125794131
+methodA end, thread name:AA, time:1571125799135
+methodB begin, thread name:B, time:1571125799135
+methodB end, thread name:B, time:1571125804140
+methodB begin, thread name:BB, time:1571125804140
+methodB end, thread name:BB, time:1571125809145
+
+    从结果可以看出，调用lock.lock()代码的线程就持有了"对象监视器"，其他线程只用等待锁被释放时再次争抢。效果和使用synchronized关键字
+一样，线程之间执行的顺序是随机的。

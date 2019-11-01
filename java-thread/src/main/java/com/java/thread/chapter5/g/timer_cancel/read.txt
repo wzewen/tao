@@ -1,0 +1,14 @@
+运行结果：
+start time:2019-10-17 16:01:32
+plan start running time:2019-10-17 16:01:37
+A running time:2019-10-17 16:01:37
+B running time:2019-10-17 16:01:37
+B running time:2019-10-17 16:01:40
+A running time:2019-10-17 16:01:40
+B running time:2019-10-17 16:01:43
+A running time:2019-10-17 16:01:43
+A running time:2019-10-17 16:01:46
+B running time:2019-10-17 16:01:46
+15s timer cancel.
+
+    和TimerTask类中的cancel()方法不同，Timer类中的cancel()方法作用是将任务队列中全部的任务进行清空。

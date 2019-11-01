@@ -1,0 +1,5 @@
+运行结果：
+is held current lock:false
+is held current lock:true
+
+    方法 boolean isHeldCurrentThread() 的作用是查询当前线程是否保持此锁定。
