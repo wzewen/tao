@@ -1,0 +1,16 @@
+运行结果：
+wait begin : 1572708059966
+add 1 element
+add 2 element
+add 3 element
+add 4 element
+add 5 element
+already notify ...
+add 6 element
+add 7 element
+add 8 element
+add 9 element
+add 10 element
+wait end   : 1572708060971
+
+    日志 wait end 在最后输出，这也说明notify()方法执行后并不立即释放锁。

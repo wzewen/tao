@@ -1,0 +1,7 @@
+运行结果：
+start wait time : 1572707101521
+start notify time : 1572707103526
+end   notify time : 1572707103526
+end   wait time : 1572707103526
+
+    wait使线程停止运行，而notify使停止的线程继续运行。
