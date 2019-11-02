@@ -1,0 +1,15 @@
+Java并发编程实战
+    -- Java concurrency in Practice
+        Brian Goetz
+        Tim Peierls
+    (美)Joshua Bloch     著
+        Joseph Bowbeer
+        David Holmes
+        Doug Lea
+        童云兰     等译
+
+    线程是Java平台但基础组成部分之一。随着多核处理器逐渐成为主流，如何高效地使用并发已经成为构建高性能应用程序但重要因素。Java SE 5 和
+Java 6 在并发程序开发方面取得了巨大的进步，在其Java虚拟机中能支持一些高性能的并且具有高可伸缩性的并发类，此外还支持一组新的并发基础构建
+模块。在本书中，这些新功能的编写者们不仅介绍类它们的工作原理和使用方式，还介绍了隐藏在这些功能背后的研究北京与设计模式。
+
+                                                                                                机械工业出版社
