@@ -195,28 +195,8 @@ public class DateUtil {
     }
 
     public static void main(String[] args){
-        System.out.println(dateTimeToString(new Date()));
-        System.out.println(dateToString(new Date()));
-        System.out.println(timeToString(new Date()));
-        System.out.println(dateTimeToLong(new Date()));
-        System.out.println(dateTimeSecondToLong(new Date()));
-        System.out.println(dateToLong(new Date()));
-
-        System.out.println(dateForDateTimeStr("2019-03-15 15:15:15"));
-        System.out.println(dateForDateStr("2019-03-15"));
-        System.out.println(dateForDateTimeLong("20190315151515"));
-        System.out.println(dateForDateLong("20190315"));
-
-        Date date = new Date();
-        System.out.println(dateCompare(date, date));
-        System.out.println(dateCompare(dateForDateLong("20190315"), dateForDateLong("20190314")));
-        System.out.println(dateCompare(dateForDateLong("20190313"), dateForDateLong("20190314")));
-
-        System.out.println("现在的时间："+date);
-        Date after = addDate(date, 365);
-        System.out.println("增加后的时间："+after);
-
-        System.out.println(diffDate("20190301","20190414"));
+        Date date = addDate(new Date(), -247);
+        System.out.println(dateTimeToString(date));
 
     }
 

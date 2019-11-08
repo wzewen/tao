@@ -1,0 +1,13 @@
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+    in-memory: false
+    #使用连接池
+    pool:
+      #true开启，false关闭
+      enabled: true
+      #最大连接数
+      max-connections: 5
+      #空闲连接超时清除时间
+      idle-timeout: 30000
+      expiry-timeout: 0

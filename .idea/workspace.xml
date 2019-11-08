@@ -2,13 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df06c820-4e26-402a-abc0-80c2d3868271" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/practice/chapter6/read.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware-acivemq/middleware-acivemq.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware-acivemq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/ActiveMQConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Receiver2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/read.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/service/ConsumerListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/Receiver2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/read.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/tao/controller/ActivemqController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/tao/utils/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/tao/utils/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/tao/utils/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/tao/utils/DateUtil.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/java-thread/target/" />
     <ignored path="$PROJECT_DIR$/common/target/" />
+    <ignored path="$PROJECT_DIR$/middleware-acivemq/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,40 +41,62 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/practice/read.txt">
+        <entry file="file://$PROJECT_DIR$/middleware-acivemq/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+            <state relative-caret-position="499">
+              <caret line="37" column="21" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="37" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/practice/chapter6/read.txt">
+        <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/tao/gaode/controller/MatrixController.java">
+        <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/ActiveMQConf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+            <state relative-caret-position="188">
+              <caret line="79" column="13" lean-forward="true" selection-end-line="101" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#995#996#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/Provider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="23" column="7" lean-forward="true" selection-end-line="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+                <element signature="e#866#867#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/tao/gaode/service/impl/MatrixServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/tao/controller/ActivemqController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1870">
-              <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
+            <state relative-caret-position="204">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,19 +105,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="136" column="44" selection-start-line="136" selection-start-column="44" selection-end-line="136" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/Executor.java">
+        <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/service/ConsumerListener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
-              <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
+              <caret line="49" column="25" selection-end-line="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,8 +134,9 @@
       <find>offer</find>
       <find>poll</find>
       <find />
-      <find />
       <find>,</find>
+      <find>中信</find>
+      <find>log4</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -113,38 +150,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/chapter7/A/status/read.txt" />
-        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/chapter7/A/status/a/new_runnable_terminated/MyThread.java" />
-        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/chapter7/A/status/a/new_runnable_terminated/Run.java" />
-        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/chapter7/A/status/a/new_runnable_terminated/read.txt" />
-        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/chapter7/A/status/b/timed_waiting/Run.java" />
-        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/chapter7/A/status/b/timed_waiting/MyThread.java" />
-        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/chapter7/A/status/b/timed_waiting/read.txt" />
-        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/chapter7/A/status/c/blocked/MyService.java" />
-        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/chapter7/A/status/c/blocked/MyThread1.java" />
-        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/chapter7/A/status/c/blocked/MyThread2.java" />
-        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/chapter7/A/status/c/blocked/Run.java" />
-        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/chapter7/A/status/c/blocked/read.txt" />
-        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/chapter7/A/status/d/waiting/Lock.java" />
-        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/chapter7/A/status/d/waiting/MyThread.java" />
-        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/chapter7/A/status/d/waiting/Run.java" />
-        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/chapter7/A/status/d/waiting/read.txt" />
-        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/chapter7/B/group/read.txt" />
-        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/chapter7/B/group/a/group_add_thread/Run.java" />
-        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/chapter7/B/group/a/group_add_thread/ThreadA.java" />
-        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/chapter7/B/group/a/group_add_thread/ThreadB.java" />
-        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/chapter7/B/group/a/group_add_thread/read.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/tao/utils/ThreadUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/tao/utils/MyThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/tao/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/tao/service/MatrixService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/tao/service/impl/MatrixServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/tao/utils/MatrixThreadPool.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/tao/utils/MatrixThreadGroup.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/tao/utils/HttpUtils.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/tao/gaode/a.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/tao/gaode/AddressDot.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/tao/bean/Result.java" />
@@ -164,6 +172,35 @@
         <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/b/wait_notiry_2/MyThreadB.java" />
         <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/b/wait_notiry_2/read.txt" />
         <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/practice/chapter6/read.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/tao/gaode/zero/BankBrandPoi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/tao/utils/DateUtil.java" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/single/QueueSender.java" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/single/QueueReciver.java" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/single/QueueReceiver.java" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Receiver2.java" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/read.txt" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/Sender.java" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/Receiver.java" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/Receiver2.java" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/read.txt" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Sender.java" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Receiver.java" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/ActivemqConf.java" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/JSMProducer.java" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/JMSProducer.java" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/JMSConsumer.java" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/controller/JmsController.java" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/controller/SenderController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/tao/controller/SenderController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/tao/controller/ActivemqSenderController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/tao/controller/ActivemqController.java" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/pom.xml" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/Provider.java" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/service/ConsumerListener.java" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/ActiveMQConf.java" />
       </list>
     </option>
   </component>
@@ -179,7 +216,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="803" />
@@ -190,9 +227,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,11 +252,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.java.tao.controller" />
+      <recent name="com.java.tao.topic" />
+      <recent name="com.java.tao.queue" />
       <recent name="com.java.tao.bean" />
       <recent name="com.java.tao.utils" />
-      <recent name="com.java.thread.chapter7.B.group.a.group_add_thread" />
-      <recent name="com.java.thread.chapter5.g.timer_cancel" />
-      <recent name="com.java.thread.chapter4.B.ReentrantReadWriteLock.c.read_write_lock" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -238,13 +275,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Run">
-    <configuration name="AddressDot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.tao.gaode.zero.AddressDot" />
-      <module name="tao" />
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="Receiver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.tao.topic.Receiver" />
+      <module name="middleware-acivemq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.tao.gaode.zero.*" />
+          <option name="PATTERN" value="com.java.tao.topic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -252,12 +289,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.tao.gaode.controller.MatrixController" />
-      <module name="tao" />
+    <configuration name="Receiver2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.tao.topic.Receiver2" />
+      <module name="middleware-acivemq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.tao.gaode.controller.*" />
+          <option name="PATTERN" value="com.java.tao.topic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,25 +302,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.thread.core.chapter3.A.wait_notify.a.wait_notify.Run" />
-      <module name="javathread" />
+    <configuration name="Receiver2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.tao.queue.Receiver2" />
+      <module name="middleware-acivemq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.thread.core.chapter3.A.wait_notify.a.wait_notify.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.thread.core.chapter3.A.wait_notify.b.wait_notiry_2.Run" />
-      <module name="javathread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.thread.core.chapter3.A.wait_notify.b.wait_notiry_2.*" />
+          <option name="PATTERN" value="com.java.tao.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -330,14 +354,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="tao" />
+    <configuration name="Sender (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.tao.topic.Sender" />
+      <module name="middleware-acivemq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.tao.*" />
+          <option name="PATTERN" value="com.java.tao.topic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.tao.queue.Sender" />
+      <module name="middleware-acivemq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.tao.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tao" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.java.tao.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -345,11 +389,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Run" />
-        <item itemvalue="Application.Run (1)" />
-        <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="Application.AddressDot" />
-        <item itemvalue="Application.MatrixController" />
+        <item itemvalue="Application.Sender (1)" />
+        <item itemvalue="Application.Receiver2 (1)" />
+        <item itemvalue="Application.Receiver (1)" />
+        <item itemvalue="Application.Sender" />
+        <item itemvalue="Application.Receiver2" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +416,8 @@
       <workItem from="1572598677734" duration="1148000" />
       <workItem from="1572600692626" duration="387000" />
       <workItem from="1572703843744" duration="4575000" />
-      <workItem from="1572838100260" duration="3084000" />
+      <workItem from="1572838100260" duration="17118000" />
+      <workItem from="1573178357216" duration="10861000" />
     </task>
     <task id="LOCAL-00001" summary="get into tao">
       <created>1571124066329</created>
@@ -528,16 +573,30 @@
       <option name="project" value="LOCAL" />
       <updated>1572708286806</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="practice">
+      <created>1573005208550</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1573005208550</updated>
+    </task>
+    <task id="LOCAL-00024" summary="BankBrandPoi gaode">
+      <created>1573021100303</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1573021100303</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104462000" />
+    <option name="totallyTimeSpent" value="129357000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="803" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="803" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24320458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23819743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -547,8 +606,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5049226" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5218003" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45428973" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5049226" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -569,7 +628,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297568" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,240 +653,11 @@
     <MESSAGE value="Java core 高洪岩" />
     <MESSAGE value="Java practice" />
     <MESSAGE value="wait/notify" />
-    <option name="LAST_COMMIT_MESSAGE" value="wait/notify" />
+    <MESSAGE value="practice" />
+    <MESSAGE value="BankBrandPoi gaode" />
+    <option name="LAST_COMMIT_MESSAGE" value="BankBrandPoi gaode" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/A/status/d/waiting/MyThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/A/status/d/waiting/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/A/status/d/waiting/read.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/B/group/read.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/B/group/a/group_add_thread/ThreadA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/B/group/a/group_add_thread/ThreadB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/B/group/a/group_add_thread/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/B/group/a/group_add_thread/read.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/tao/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/a/hungry_man/MyObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="149" column="95" selection-start-line="149" selection-start-column="34" selection-end-line="149" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/AbstractQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="94" column="15" lean-forward="true" selection-start-line="94" selection-start-column="15" selection-end-line="94" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="180" column="14" lean-forward="true" selection-start-line="180" selection-start-column="14" selection-end-line="180" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="409" column="19" selection-start-line="409" selection-start-column="19" selection-end-line="409" selection-end-column="19" />
-          <folding>
-            <element signature="e#7388#7389#0" expanded="true" />
-            <element signature="e#7427#7428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="391" column="44" lean-forward="true" selection-start-line="391" selection-start-column="44" selection-end-line="391" selection-end-column="44" />
-          <folding>
-            <element signature="e#6812#6813#0" expanded="true" />
-            <element signature="e#6849#6850#0" expanded="true" />
-            <element signature="e#9697#9698#0" expanded="true" />
-            <element signature="e#9732#9733#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/tao/utils/ThreadUtils.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/tao/utils/MyThread.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/tao/gaode/service/MatrixService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/tao/gaode/a.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/tao/utils/HttpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/tao/bean/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding>
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/tao/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/tao/gaode/utils.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/tao/gaode/utils/MatrixThreadGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/tao/gaode/config/Me4lDbConf.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/tao/gaode/utils/MatrixThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/read.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/read.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/read.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/a/wait_notify/Mythread1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="82" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
-          <folding>
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/a/wait_notify/Mythread2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
-          <folding>
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/a/wait_notify/Run.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -896,19 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/tao/gaode/zero/AddressDot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/practice/read.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -951,6 +768,1082 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1870">
           <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/tao/gaode/zero/AddressDot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="126" column="53" lean-forward="true" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/tao/gaode/zero/BankBrandPoi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-526">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/tao/utils/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="197" column="46" lean-forward="true" selection-start-line="197" selection-start-column="46" selection-end-line="197" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.10/activemq-all-5.15.10.jar!/javax/jms/Destination.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.10/activemq-all-5.15.10.jar!/javax/jms/Session.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.10/activemq-all-5.15.10.jar!/javax/jms/Connection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/single/QueueReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/single/QueueSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Receiver2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/Receiver2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/read.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/read.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/Sender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Sender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/JMSProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/JMSConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/controller/JmsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/controller/SenderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-thread/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="34" selection-start-line="16" selection-start-column="12" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/tao/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="40" column="28" selection-start-line="37" selection-start-column="6" selection-end-line="40" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="43" selection-start-line="20" selection-start-column="6" selection-end-line="21" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.java.tao:middleware-acivemq:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.java.tao:middleware-acivemq:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="20.0" y="1255.2644742512393">com.java.tao:middleware-acivemq:1.0-SNAPSHOT</node>
+            <node x="243.0" y="311.51447425123933">org.apache.activemq:activemq-all:jar:5.15.10</node>
+            <node x="189.0" y="951.5144742512393">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE</node>
+            <node x="503.0" y="926.8858651152772">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE</node>
+            <node x="795.0" y="271.51447425123933">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot:jar:2.0.2.RELEASE</node>
+            <node x="748.5" y="165.0">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.0.2.RELEASE</node>
+            <node x="745.5" y="875.2644742512393">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE</node>
+            <node x="1050.0" y="895.2644742512393">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="1257.0" y="895.2644742512393">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="1057.0" y="935.2644742512393">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0</node>
+            <node x="1270.5" y="935.2644742512393">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0/org.apache.logging.log4j:log4j-api:jar:2.10.0</node>
+            <node x="1065.0" y="818.125">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="769.0" y="1120.2644742512393">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
+            <node x="800.0" y="835.2644742512393">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.yaml:snakeyaml:jar:1.19</node>
+            <node x="530.5" y="821.647769877182">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework:spring-jms:jar:5.0.6.RELEASE</node>
+            <node x="791.0" y="692.7644742512393">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework:spring-jms:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE</node>
+            <node x="776.5" y="752.7644742512393">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework:spring-jms:jar:5.0.6.RELEASE/org.springframework:spring-messaging:jar:5.0.6.RELEASE</node>
+            <node x="803.5" y="792.7644742512393">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework:spring-jms:jar:5.0.6.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE</node>
+            <node x="513.0" y="1117.2916666666667">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3</node>
+            <node x="785.0" y="1000.2644742512393">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/org.apache.activemq:activemq-client:jar:5.15.3</node>
+            <node x="1072.0" y="980.2644742512393">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/org.apache.activemq:activemq-client:jar:5.15.3/org.fusesource.hawtbuf:hawtbuf:jar:1.11</node>
+            <node x="982.0" y="1020.2644742512393">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/org.apache.activemq:activemq-client:jar:5.15.3/org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:jar:1.0.1</node>
+            <node x="751.0" y="1080.2644742512393">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/org.apache.activemq:activemq-openwire-legacy:jar:5.15.3</node>
+            <node x="813.5" y="1040.2644742512393">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/com.google.guava:guava:jar:18.0</node>
+            <node x="778.5" y="1220.2644742512393">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5</node>
+            <node x="1034.0" y="1185.2644742512393">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
+            <node x="1057.5" y="1270.2644742512393">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5/com.fasterxml.jackson.core:jackson-core:jar:2.9.5</node>
+            <node x="523.5" y="1043.7818735186386">org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/javax.jms:javax.jms-api:jar:2.0.1</node>
+            <node x="204.0" y="1255.2644742512393">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE</node>
+            <node x="487.0" y="1237.4789915966387">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE</node>
+            <node x="762.5" y="1320.2644742512393">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.5</node>
+            <node x="757.0" y="1160.2644742512393">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.5</node>
+            <node x="726.0" y="1280.2644742512393">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.5</node>
+            <node x="478.5" y="1494.9789915966387">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE</node>
+            <node x="770.5" y="1580.2644742512393">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.31</node>
+            <node x="779.0" y="1480.2644742512393">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.31</node>
+            <node x="751.0" y="1520.2644742512393">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.31</node>
+            <node x="505.0" y="1384.1456582633054">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final</node>
+            <node x="790.5" y="1400.2644742512393">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/javax.validation:validation-api:jar:2.0.1.Final</node>
+            <node x="789.5" y="1440.2644742512393">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
+            <node x="801.5" y="1360.2644742512393">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/com.fasterxml:classmate:jar:1.3.4</node>
+            <node x="528.5" y="861.647769877182">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-web:jar:5.0.6.RELEASE</node>
+            <node x="516.0" y="504.1666666666667">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE</node>
+            <node x="798.0" y="572.7644742512393">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE/org.springframework:spring-aop:jar:5.0.6.RELEASE</node>
+            <node x="786.0" y="511.5144742512393">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE</node>
+            <node x="776.0" y="431.5144742512393">org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE/org.springframework:spring-expression:jar:5.0.6.RELEASE</node>
+            <node x="204.5" y="351.5144742512393">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE</node>
+            <node x="511.5" y="222.5">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-test:jar:2.0.2.RELEASE</node>
+            <node x="465.0" y="160.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.2.RELEASE</node>
+            <node x="533.5" y="709.3858651152773">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
+            <node x="798.5" y="612.7644742512393">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
+            <node x="1046.0" y="612.7644742512393">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
+            <node x="1285.0" y="612.7644742512393">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
+            <node x="807.0" y="915.2644742512393">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="550.0" y="120.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/junit:junit:jar:4.12</node>
+            <node x="526.5" y="342.9166666666667">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.assertj:assertj-core:jar:3.9.1</node>
+            <node x="522.5" y="382.9166666666667">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0</node>
+            <node x="796.0" y="471.5144742512393">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy:jar:1.7.11</node>
+            <node x="775.5" y="391.5144742512393">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy-agent:jar:1.7.11</node>
+            <node x="803.0" y="351.5144742512393">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0/org.objenesis:objenesis:jar:2.6</node>
+            <node x="518.5" y="60.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="513.0" y="0.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="531.5" y="266.25">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
+            <node x="792.5" y="311.51447425123933">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="527.5" y="574.0144742512393">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE</node>
+            <node x="803.0" y="652.7644742512393">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE/org.springframework:spring-jcl:jar:5.0.6.RELEASE</node>
+            <node x="529.0" y="464.1666666666667">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-test:jar:5.0.6.RELEASE</node>
+            <node x="524.5" y="424.1666666666667">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.xmlunit:xmlunit-core:jar:2.5.1</node>
+            <node x="255.0" y="1403.312324929972">com.alibaba:fastjson:jar:1.2.60</node>
+            <node x="251.0" y="1598.312324929972">org.apache.httpcomponents:httpmime:jar:4.1.2</node>
+            <node x="537.0" y="1575.812324929972">org.apache.httpcomponents:httpmime:jar:4.1.2/org.apache.httpcomponents:httpcore:jar:4.4.9</node>
+            <node x="507.5" y="1615.812324929972">org.apache.httpcomponents:httpmime:jar:4.1.2/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="250.5" y="1553.312324929972">org.apache.httpcomponents:httpclient:jar:4.4.1</node>
+            <node x="512.0" y="1535.812324929972">org.apache.httpcomponents:httpclient:jar:4.4.1/commons-codec:commons-codec:jar:1.11</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework:spring-jms:jar:5.0.6.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework:spring-jms:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE">
+              <point x="-40.5" y="-6.666666666666657" />
+              <point x="706.0" y="796.0978075845726" />
+              <point x="706.0" y="711.3359028226678" />
+              <point x="-53.0" y="8.571428571428555" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-web:jar:5.0.6.RELEASE">
+              <point x="88.0" y="-5.0" />
+              <point x="395.0" y="1260.2644742512393" />
+              <point x="415.0" y="874.147769877182" />
+              <point x="-47.0" y="2.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0">
+              <point x="87.5" y="-1.5384615384614335" />
+              <point x="395.0" y="359.97601271277784" />
+              <point x="415.0" y="276.25" />
+              <point x="-44.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE">
+              <point x="-49.0" y="7.5" />
+              <point x="706.0" y="289.01447425123933" />
+              <point x="706.0" y="517.5144742512393" />
+              <point x="-58.0" y="-4.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy:jar:1.7.11">
+              <point x="53.0" y="6.6666666666667425" />
+              <point x="686.0" y="399.5833333333334" />
+              <point x="706.0" y="481.5144742512393" />
+              <point x="-48.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/com.google.guava:guava:jar:18.0">
+              <point x="62.5" y="-2.5" />
+              <point x="686.0" y="1124.7916666666667" />
+              <point x="706.0" y="1050.2644742512393" />
+              <point x="-30.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.xmlunit:xmlunit-core:jar:2.5.1">
+              <point x="87.5" y="3.0769230769230944" />
+              <point x="395.0" y="364.5913973281624" />
+              <point x="415.0" y="434.1666666666667" />
+              <point x="-51.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0">
+              <point x="65.5" y="-5.0" />
+              <point x="962.0" y="1225.2644742512393" />
+              <point x="982.0" y="1200.2644742512393" />
+              <point x="-75.5" y="5.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot:jar:2.0.2.RELEASE">
+              <point x="72.5" y="-4.0" />
+              <point x="686.0" y="932.8858651152772" />
+              <point x="706.0" y="284.01447425123933" />
+              <point x="-49.0" y="2.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3">
+              <point x="59.5" y="-0.0" />
+              <point x="-52.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE/org.springframework:spring-aop:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework:spring-jms:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE">
+              <point x="-46.0" y="6.666666666666686" />
+              <point x="716.0" y="589.431140917906" />
+              <point x="716.0" y="694.1930456798107" />
+              <point x="-53.0" y="-8.571428571428555" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/com.fasterxml:classmate:jar:1.3.4">
+              <point x="70.5" y="-6.666666666666629" />
+              <point x="686.0" y="1387.478991596639" />
+              <point x="706.0" y="1370.2644742512393" />
+              <point x="-42.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3">
+              <point x="98.5" y="-0.0" />
+              <point x="962.0" y="885.2644742512393" />
+              <point x="982.0" y="900.2644742512393" />
+              <point x="-59.5" y="-5.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0/org.apache.logging.log4j:log4j-api:jar:2.10.0">
+              <point x="52.5" y="-0.0" />
+              <point x="-39.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4">
+              <point x="63.5" y="-0.0" />
+              <point x="-24.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-web:jar:5.0.6.RELEASE">
+              <point x="-88.5" y="-0.0" />
+              <point x="415.0" y="1247.4789915966387" />
+              <point x="415.0" y="879.147769877182" />
+              <point x="-47.0" y="7.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
+              <point x="-49.0" y="-2.5" />
+              <point x="706.0" y="279.01447425123933" />
+              <point x="686.0" y="575.2644742512393" />
+              <point x="48.0" y="-8.75" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.5" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5">
+              <point x="0.0" y="-10.0" />
+              <point x="0.0" y="10.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.5" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0">
+              <point x="87.0" y="-5.0" />
+              <point x="962.0" y="1165.2644742512393" />
+              <point x="982.0" y="1190.2644742512393" />
+              <point x="-75.5" y="-5.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE/org.springframework:spring-jcl:jar:5.0.6.RELEASE">
+              <point x="48.0" y="1.25" />
+              <point x="686.0" y="585.2644742512393" />
+              <point x="706.0" y="662.7644742512393" />
+              <point x="-41.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.assertj:assertj-core:jar:3.9.1">
+              <point x="87.5" y="-0.0" />
+              <point x="395.0" y="361.5144742512393" />
+              <point x="415.0" y="352.9166666666667" />
+              <point x="-49.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/javax.validation:validation-api:jar:2.0.1.Final">
+              <point x="70.5" y="-0.0" />
+              <point x="686.0" y="1394.1456582633054" />
+              <point x="706.0" y="1410.2644742512393" />
+              <point x="-53.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework:spring-jms:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
+              <point x="-53.0" y="-0.0" />
+              <point x="706.0" y="702.7644742512393" />
+              <point x="686.0" y="587.7644742512393" />
+              <point x="48.0" y="3.75" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-test:jar:5.0.6.RELEASE">
+              <point x="87.5" y="4.615384615384528" />
+              <point x="395.0" y="366.1298588666238" />
+              <point x="415.0" y="469.1666666666667" />
+              <point x="-46.5" y="-5.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE">
+              <point x="72.5" y="4.0" />
+              <point x="686.0" y="940.8858651152772" />
+              <point x="706.0" y="885.2644742512393" />
+              <point x="-98.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/junit:junit:jar:4.12" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="-10.0" />
+              <point x="0.0" y="10.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
+              <point x="0.0" y="10.0" />
+              <point x="0.0" y="-10.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final">
+              <point x="88.0" y="5.0" />
+              <point x="395.0" y="1270.2644742512393" />
+              <point x="415.0" y="1394.1456582633054" />
+              <point x="-70.5" y="-0.0" />
+            </edge>
+            <edge source="com.java.tao:middleware-acivemq:1.0-SNAPSHOT" target="com.alibaba:fastjson:jar:1.2.60">
+              <point x="74.5" y="2.857142857142861" />
+              <point x="189.0" y="1413.312324929972" />
+              <point x="-37.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-test:jar:2.0.2.RELEASE">
+              <point x="0.0" y="10.0" />
+              <point x="0.0" y="-10.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.yaml:snakeyaml:jar:1.19">
+              <point x="72.5" y="-0.0" />
+              <point x="686.0" y="936.8858651152772" />
+              <point x="706.0" y="845.2644742512393" />
+              <point x="-44.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="42.0" y="5.0" />
+              <point x="686.0" y="724.3858651152773" />
+              <point x="706.0" y="925.2644742512393" />
+              <point x="-37.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0">
+              <point x="87.5" y="1.5384615384614335" />
+              <point x="395.0" y="363.0529357897007" />
+              <point x="415.0" y="392.9166666666667" />
+              <point x="-53.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE">
+              <point x="88.0" y="8.333333333333371" />
+              <point x="395.0" y="1273.5978075845726" />
+              <point x="415.0" y="1504.9789915966387" />
+              <point x="-97.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy-agent:jar:1.7.11">
+              <point x="53.0" y="-0.0" />
+              <point x="686.0" y="392.9166666666667" />
+              <point x="706.0" y="401.5144742512393" />
+              <point x="-68.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework:spring-jms:jar:5.0.6.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
+              <point x="-40.5" y="-0.0" />
+              <point x="706.0" y="802.7644742512393" />
+              <point x="686.0" y="592.7644742512393" />
+              <point x="48.0" y="8.75" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.31">
+              <point x="97.0" y="2.5" />
+              <point x="686.0" y="1507.4789915966387" />
+              <point x="706.0" y="1530.2644742512393" />
+              <point x="-93.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE/org.springframework:spring-expression:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
+              <point x="-68.0" y="-0.0" />
+              <point x="706.0" y="441.5144742512393" />
+              <point x="686.0" y="577.7644742512393" />
+              <point x="48.0" y="-6.25" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.hamcrest:hamcrest-library:jar:1.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="10.0" />
+              <point x="0.0" y="-10.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework:spring-jms:jar:5.0.6.RELEASE/org.springframework:spring-messaging:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
+              <point x="-67.5" y="-5.0" />
+              <point x="706.0" y="757.7644742512393" />
+              <point x="686.0" y="590.2644742512393" />
+              <point x="48.0" y="6.25" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE">
+              <point x="87.5" y="9.230769230769283" />
+              <point x="395.0" y="370.74524348200856" />
+              <point x="415.0" y="932.8858651152772" />
+              <point x="-72.5" y="-4.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE">
+              <point x="103.0" y="-2.5" />
+              <point x="415.0" y="936.8858651152772" />
+              <point x="-72.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3">
+              <point x="103.0" y="7.5" />
+              <point x="415.0" y="1127.2916666666667" />
+              <point x="-62.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2">
+              <point x="72.5" y="8.0" />
+              <point x="686.0" y="944.8858651152772" />
+              <point x="706.0" y="1125.2644742512393" />
+              <point x="-75.0" y="-5.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework:spring-jms:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE">
+              <point x="59.5" y="7.5" />
+              <point x="686.0" y="521.6666666666667" />
+              <point x="706.0" y="699.9073313940964" />
+              <point x="-53.0" y="-2.857142857142833" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.5" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5/com.fasterxml.jackson.core:jackson-core:jar:2.9.5">
+              <point x="81.5" y="-0.0" />
+              <point x="962.0" y="1330.2644742512393" />
+              <point x="982.0" y="1287.7644742512393" />
+              <point x="-52.0" y="7.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3">
+              <point x="42.0" y="-5.0" />
+              <point x="686.0" y="714.3858651152773" />
+              <point x="706.0" y="622.7644742512393" />
+              <point x="-45.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.httpcomponents:httpmime:jar:4.1.2" target="org.apache.httpcomponents:httpmime:jar:4.1.2/org.apache.httpcomponents:httpcore:jar:4.4.9">
+              <point x="41.0" y="-5.0" />
+              <point x="395.0" y="1603.312324929972" />
+              <point x="415.0" y="1590.812324929972" />
+              <point x="-38.5" y="5.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.31">
+              <point x="97.0" y="-2.5" />
+              <point x="686.0" y="1502.4789915966387" />
+              <point x="706.0" y="1490.2644742512393" />
+              <point x="-65.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/org.apache.activemq:activemq-client:jar:5.15.3">
+              <point x="62.5" y="-7.5" />
+              <point x="686.0" y="1119.7916666666667" />
+              <point x="706.0" y="1005.2644742512393" />
+              <point x="-59.0" y="-5.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/org.apache.activemq:activemq-client:jar:5.15.3" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/org.apache.activemq:activemq-client:jar:5.15.3/org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:jar:1.0.1">
+              <point x="59.0" y="5.0" />
+              <point x="962.0" y="1015.2644742512393" />
+              <point x="-127.5" y="-0.0" />
+            </edge>
+            <edge source="com.java.tao:middleware-acivemq:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE">
+              <point x="74.5" y="-5.714285714285722" />
+              <point x="189.0" y="361.5144742512393" />
+              <point x="-87.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
+              <point x="-58.0" y="4.0" />
+              <point x="706.0" y="525.5144742512393" />
+              <point x="686.0" y="580.2644742512393" />
+              <point x="48.0" y="-3.75" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/org.apache.activemq:activemq-openwire-legacy:jar:5.15.3">
+              <point x="62.5" y="2.5" />
+              <point x="686.0" y="1129.7916666666667" />
+              <point x="706.0" y="1095.2644742512393" />
+              <point x="-93.0" y="5.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.31" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.31">
+              <point x="0.0" y="10.0" />
+              <point x="0.0" y="-10.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework:spring-jms:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE">
+              <point x="-58.0" y="8.0" />
+              <point x="706.0" y="529.5144742512393" />
+              <point x="706.0" y="697.0501885369536" />
+              <point x="-53.0" y="-5.714285714285722" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-test:jar:2.0.2.RELEASE">
+              <point x="87.5" y="-3.0769230769230944" />
+              <point x="395.0" y="358.4375511743162" />
+              <point x="415.0" y="232.5" />
+              <point x="-64.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.31">
+              <point x="97.0" y="7.5" />
+              <point x="686.0" y="1512.4789915966387" />
+              <point x="706.0" y="1590.2644742512393" />
+              <point x="-73.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.5" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5/com.fasterxml.jackson.core:jackson-core:jar:2.9.5">
+              <point x="87.0" y="5.0" />
+              <point x="962.0" y="1175.2644742512393" />
+              <point x="982.0" y="1272.7644742512393" />
+              <point x="-52.0" y="-7.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="87.5" y="-7.692307692307622" />
+              <point x="395.0" y="353.82216655893166" />
+              <point x="415.0" y="70.0" />
+              <point x="-57.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework:spring-jms:jar:5.0.6.RELEASE/org.springframework:spring-messaging:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework:spring-jms:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE">
+              <point x="0.0" y="-10.0" />
+              <point x="0.0" y="10.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.hamcrest:hamcrest-library:jar:1.3">
+              <point x="87.5" y="-9.230769230769283" />
+              <point x="395.0" y="352.28370502047" />
+              <point x="415.0" y="10.0" />
+              <point x="-62.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.5" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5">
+              <point x="-81.5" y="-5.0" />
+              <point x="706.0" y="1325.2644742512393" />
+              <point x="706.0" y="1236.9311409179059" />
+              <point x="-65.5" y="6.666666666666629" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework:spring-jms:jar:5.0.6.RELEASE">
+              <point x="103.0" y="-7.5" />
+              <point x="415.0" y="836.647769877182" />
+              <point x="-45.0" y="5.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE/org.springframework:spring-aop:jar:5.0.6.RELEASE">
+              <point x="59.5" y="2.5" />
+              <point x="686.0" y="516.6666666666667" />
+              <point x="706.0" y="576.0978075845726" />
+              <point x="-46.0" y="-6.666666666666686" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot:jar:2.0.2.RELEASE">
+              <point x="64.0" y="-0.0" />
+              <point x="686.0" y="232.5" />
+              <point x="706.0" y="274.01447425123933" />
+              <point x="-49.0" y="-7.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/org.apache.activemq:activemq-client:jar:5.15.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="0.0" y="-10.0" />
+              <point x="0.0" y="10.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-web:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
+              <point x="-47.0" y="-7.5" />
+              <point x="445.0" y="864.147769877182" />
+              <point x="445.0" y="588.0144742512393" />
+              <point x="-48.0" y="4.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-web:jar:5.0.6.RELEASE">
+              <point x="-59.5" y="5.0" />
+              <point x="435.0" y="519.1666666666667" />
+              <point x="435.0" y="869.147769877182" />
+              <point x="-47.0" y="-2.5" />
+            </edge>
+            <edge source="org.apache.httpcomponents:httpclient:jar:4.4.1" target="org.apache.httpcomponents:httpclient:jar:4.4.1/commons-codec:commons-codec:jar:1.11">
+              <point x="41.5" y="-5.0" />
+              <point x="395.0" y="1558.312324929972" />
+              <point x="415.0" y="1545.812324929972" />
+              <point x="-63.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0">
+              <point x="87.5" y="7.692307692307622" />
+              <point x="395.0" y="369.2067819435469" />
+              <point x="415.0" y="719.3858651152773" />
+              <point x="-42.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE">
+              <point x="88.0" y="-8.333333333333371" />
+              <point x="395.0" y="1256.9311409179059" />
+              <point x="415.0" y="509.1666666666667" />
+              <point x="-59.5" y="-5.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.5" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5">
+              <point x="0.0" y="10.0" />
+              <point x="0.0" y="-10.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.0.2.RELEASE">
+              <point x="72.5" y="-8.0" />
+              <point x="686.0" y="928.8858651152772" />
+              <point x="706.0" y="180.0" />
+              <point x="-95.5" y="5.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-59.5" y="5.0" />
+              <point x="982.0" y="910.2644742512393" />
+              <point x="962.0" y="925.2644742512393" />
+              <point x="37.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-52.5" y="5.0" />
+              <point x="982.0" y="950.2644742512393" />
+              <point x="962.0" y="931.9311409179061" />
+              <point x="37.0" y="6.6666666666667425" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE/org.springframework:spring-aop:jar:5.0.6.RELEASE">
+              <point x="0.0" y="10.0" />
+              <point x="0.0" y="-10.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0">
+              <point x="98.5" y="6.666666666666629" />
+              <point x="962.0" y="891.9311409179059" />
+              <point x="982.0" y="940.2644742512393" />
+              <point x="-52.5" y="-5.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0/org.objenesis:objenesis:jar:2.6">
+              <point x="53.0" y="-6.6666666666667425" />
+              <point x="686.0" y="386.24999999999994" />
+              <point x="706.0" y="361.5144742512393" />
+              <point x="-41.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.2.RELEASE">
+              <point x="87.5" y="-4.615384615384528" />
+              <point x="395.0" y="356.89908963585475" />
+              <point x="415.0" y="170.0" />
+              <point x="-110.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework:spring-jms:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework:spring-jms:jar:5.0.6.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE">
+              <point x="45.0" y="6.666666666666657" />
+              <point x="686.0" y="838.3144365438486" />
+              <point x="706.0" y="809.431140917906" />
+              <point x="-40.5" y="6.666666666666657" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
+              <point x="87.5" y="6.153846153846189" />
+              <point x="395.0" y="367.66832040508547" />
+              <point x="415.0" y="580.0144742512393" />
+              <point x="-48.0" y="-4.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE">
+              <point x="-88.5" y="-6.666666666666629" />
+              <point x="425.0" y="1240.812324929972" />
+              <point x="425.0" y="944.8858651152772" />
+              <point x="-72.5" y="8.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/org.apache.activemq:activemq-openwire-legacy:jar:5.15.3" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/org.apache.activemq:activemq-client:jar:5.15.3">
+              <point x="-93.0" y="-5.0" />
+              <point x="706.0" y="1085.2644742512393" />
+              <point x="706.0" y="1015.2644742512393" />
+              <point x="-59.0" y="5.0" />
+            </edge>
+            <edge source="org.apache.httpcomponents:httpclient:jar:4.4.1" target="org.apache.httpcomponents:httpmime:jar:4.1.2/org.apache.httpcomponents:httpcore:jar:4.4.9">
+              <point x="41.5" y="5.0" />
+              <point x="395.0" y="1568.312324929972" />
+              <point x="415.0" y="1580.812324929972" />
+              <point x="-38.5" y="-5.0" />
+            </edge>
+            <edge source="com.java.tao:middleware-acivemq:1.0-SNAPSHOT" target="org.apache.activemq:activemq-all:jar:5.15.10">
+              <point x="74.5" y="-8.571428571428584" />
+              <point x="189.0" y="321.51447425123933" />
+              <point x="-49.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5">
+              <point x="88.5" y="-2.5" />
+              <point x="686.0" y="1244.9789915966387" />
+              <point x="706.0" y="1230.2644742512393" />
+              <point x="-65.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
+              <point x="-72.5" y="-8.0" />
+              <point x="425.0" y="928.8858651152772" />
+              <point x="425.0" y="584.0144742512393" />
+              <point x="-48.0" y="-0.0" />
+            </edge>
+            <edge source="com.java.tao:middleware-acivemq:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE">
+              <point x="74.5" y="-2.857142857142861" />
+              <point x="-103.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5/com.fasterxml.jackson.core:jackson-core:jar:2.9.5">
+              <point x="65.5" y="5.0" />
+              <point x="962.0" y="1235.2644742512393" />
+              <point x="982.0" y="1277.7644742512393" />
+              <point x="-52.0" y="-2.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE">
+              <point x="88.0" y="1.6666666666666288" />
+              <point x="395.0" y="1266.9311409179059" />
+              <point x="415.0" y="1254.1456582633054" />
+              <point x="-88.5" y="6.666666666666629" />
+            </edge>
+            <edge source="com.java.tao:middleware-acivemq:1.0-SNAPSHOT" target="com.java.tao:middleware-acivemq:1.0-SNAPSHOT">
+              <point x="-74.5" y="-0.0" />
+              <point x="0.0" y="1265.2644742512393" />
+              <point x="0.0" y="1295.2644742512393" />
+              <point x="94.5" y="1295.2644742512393" />
+              <point x="0.0" y="10.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.5">
+              <point x="88.5" y="-7.5" />
+              <point x="686.0" y="1239.9789915966387" />
+              <point x="706.0" y="1170.2644742512393" />
+              <point x="-87.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/javax.jms:javax.jms-api:jar:2.0.1">
+              <point x="103.0" y="2.5" />
+              <point x="415.0" y="1053.7818735186386" />
+              <point x="-52.0" y="-0.0" />
+            </edge>
+            <edge source="com.java.tao:middleware-acivemq:1.0-SNAPSHOT" target="org.apache.httpcomponents:httpmime:jar:4.1.2">
+              <point x="74.5" y="8.571428571428555" />
+              <point x="189.0" y="1608.312324929972" />
+              <point x="-41.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE">
+              <point x="88.0" y="-1.6666666666666288" />
+              <point x="395.0" y="1263.5978075845726" />
+              <point x="415.0" y="940.8858651152772" />
+              <point x="-72.5" y="4.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/org.apache.activemq:activemq-client:jar:5.15.3" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/org.apache.activemq:activemq-client:jar:5.15.3/org.fusesource.hawtbuf:hawtbuf:jar:1.11">
+              <point x="59.0" y="-5.0" />
+              <point x="962.0" y="1005.2644742512393" />
+              <point x="982.0" y="990.2644742512393" />
+              <point x="-37.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.0.2.RELEASE">
+              <point x="110.5" y="-0.0" />
+              <point x="-95.5" y="-5.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.5">
+              <point x="88.5" y="7.5" />
+              <point x="686.0" y="1254.9789915966387" />
+              <point x="706.0" y="1335.2644742512393" />
+              <point x="-81.5" y="5.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-test:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
+              <point x="-46.5" y="5.0" />
+              <point x="445.0" y="479.1666666666667" />
+              <point x="445.0" y="576.0144742512393" />
+              <point x="-48.0" y="-8.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/junit:junit:jar:4.12">
+              <point x="87.5" y="-6.153846153846189" />
+              <point x="395.0" y="355.3606280973931" />
+              <point x="415.0" y="130.0" />
+              <point x="-25.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE/org.springframework:spring-aop:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
+              <point x="-46.0" y="-0.0" />
+              <point x="48.0" y="-1.25" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.5" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5/com.fasterxml.jackson.core:jackson-core:jar:2.9.5">
+              <point x="118.0" y="-0.0" />
+              <point x="982.0" y="1282.7644742512393" />
+              <point x="-52.0" y="2.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.5">
+              <point x="88.5" y="2.5" />
+              <point x="686.0" y="1249.9789915966387" />
+              <point x="706.0" y="1290.2644742512393" />
+              <point x="-118.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework:spring-jms:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework:spring-jms:jar:5.0.6.RELEASE/org.springframework:spring-messaging:jar:5.0.6.RELEASE">
+              <point x="45.0" y="-0.0" />
+              <point x="686.0" y="831.647769877182" />
+              <point x="706.0" y="767.7644742512393" />
+              <point x="-67.5" y="5.0" />
+            </edge>
+            <edge source="com.java.tao:middleware-acivemq:1.0-SNAPSHOT" target="org.apache.httpcomponents:httpclient:jar:4.4.1">
+              <point x="74.5" y="5.714285714285722" />
+              <point x="189.0" y="1563.312324929972" />
+              <point x="-41.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.httpcomponents:httpmime:jar:4.1.2" target="org.apache.httpcomponents:httpmime:jar:4.1.2/commons-logging:commons-logging:jar:1.1.1">
+              <point x="41.0" y="5.0" />
+              <point x="395.0" y="1613.312324929972" />
+              <point x="415.0" y="1625.812324929972" />
+              <point x="-68.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE">
+              <point x="59.5" y="-2.5" />
+              <point x="686.0" y="511.6666666666667" />
+              <point x="706.0" y="521.5144742512393" />
+              <point x="-58.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot:jar:2.0.2.RELEASE">
+              <point x="0.0" y="10.0" />
+              <point x="0.0" y="-10.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE/org.springframework:spring-expression:jar:5.0.6.RELEASE">
+              <point x="-58.0" y="-8.0" />
+              <point x="716.0" y="513.5144742512393" />
+              <point x="716.0" y="448.18114091790596" />
+              <point x="-68.0" y="6.666666666666686" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2">
+              <point x="97.0" y="-7.5" />
+              <point x="686.0" y="1497.4789915966387" />
+              <point x="706.0" y="1135.2644742512393" />
+              <point x="-75.0" y="5.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-web:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework:spring-jms:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE">
+              <point x="47.0" y="-0.0" />
+              <point x="686.0" y="871.647769877182" />
+              <point x="706.0" y="708.478759965525" />
+              <point x="-53.0" y="5.714285714285722" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1">
+              <point x="44.0" y="-0.0" />
+              <point x="686.0" y="276.25" />
+              <point x="706.0" y="321.51447425123933" />
+              <point x="-51.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-44.5" y="5.0" />
+              <point x="982.0" y="833.125" />
+              <point x="962.0" y="918.5978075845726" />
+              <point x="37.0" y="-6.6666666666667425" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.apache.activemq:activemq-broker:jar:5.15.3/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5">
+              <point x="62.5" y="7.5" />
+              <point x="686.0" y="1134.7916666666667" />
+              <point x="706.0" y="1223.5978075845726" />
+              <point x="-65.5" y="-6.666666666666629" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE/org.springframework:spring-expression:jar:5.0.6.RELEASE">
+              <point x="59.5" y="-7.5" />
+              <point x="686.0" y="506.6666666666667" />
+              <point x="706.0" y="434.8478075845726" />
+              <point x="-68.0" y="-6.666666666666686" />
+            </edge>
+            <edge source="com.java.tao:middleware-acivemq:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE">
+              <point x="74.5" y="-0.0" />
+              <point x="-88.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework:spring-jms:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework:spring-jms:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE">
+              <point x="45.0" y="-6.666666666666657" />
+              <point x="686.0" y="824.9811032105154" />
+              <point x="706.0" y="705.6216171083821" />
+              <point x="-53.0" y="2.857142857142833" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework:spring-jms:jar:5.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
+              <point x="-45.0" y="-5.0" />
+              <point x="455.0" y="826.647769877182" />
+              <point x="455.0" y="592.0144742512393" />
+              <point x="-48.0" y="8.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE" target="org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25">
+              <point x="98.5" y="-6.666666666666629" />
+              <point x="962.0" y="878.5978075845726" />
+              <point x="982.0" y="823.125" />
+              <point x="-44.5" y="-5.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2">
+              <point x="45.5" y="-0.0" />
+              <point x="-63.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final" target="org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final">
+              <point x="70.5" y="6.666666666666629" />
+              <point x="686.0" y="1400.812324929972" />
+              <point x="706.0" y="1450.2644742512393" />
+              <point x="-54.5" y="-0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="1043.0" y="984.0" />
+          <SelectedNodes>
+            <node>org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-activemq/2.0.2.RELEASE/spring-boot-starter-activemq-2.0.2.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.10/activemq-all-5.15.10.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6358">
+          <caret line="374" column="44" selection-start-line="373" selection-start-column="10" selection-end-line="374" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.0.2.RELEASE/spring-boot-starter-parent-2.0.2.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-407">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/ActiveMQConf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="79" column="13" lean-forward="true" selection-end-line="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/Provider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="23" column="7" lean-forward="true" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/service/ConsumerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="49" column="25" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/tao/controller/ActivemqController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

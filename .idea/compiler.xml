@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="javathread" />
+        <module name="middleware-acivemq" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common" options="-parameters" />
       <module name="javathread" options="-parameters" />
+      <module name="middleware-acivemq" options="-parameters" />
       <module name="tao" options="-parameters" />
     </option>
   </component>
