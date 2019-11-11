@@ -10,11 +10,12 @@ public class Sender {
         ConnectionFactory connectionFactory = new ActiveMQConnectionFactory(ActiveMQConnectionFactory.DEFAULT_USER,
                 ActiveMQConnectionFactory.DEFAULT_PASSWORD, "tcp://localhost:61616");
         Connection connection = connectionFactory.createConnection();
-        Session session = connection.createSession(true, Session.AUTO_ACKNOWLEDGE);
+        Session session = connection.createSession(true, Session.CLIENT_ACKNOWLEDGE);
         Destination destination = session.createQueue("session_queue");
         MessageProducer producer = session.createProducer(destination);
         TextMessage textMessage = session.createTextMessage("hello word !");
-        producer.send(textMessage);
+        //消息；   持久化；    级别；     时效
+        producer.send(textMessage, DeliveryMode.PERSISTENT, 4, 1000*60*10);
         session.commit();
         session.close();
         connection.close();
