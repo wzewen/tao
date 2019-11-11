@@ -8,7 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="middleware-rabbitmq" />
-        <module name="middleware-acivemq" />
+        <module name="middleware-activemq" />
         <module name="javathread" />
       </profile>
     </annotationProcessing>
@@ -20,7 +20,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common" options="-parameters" />
       <module name="javathread" options="-parameters" />
-      <module name="middleware-acivemq" options="-parameters" />
+      <module name="middleware-activemq" options="-parameters" />
       <module name="middleware-rabbitmq" options="-parameters" />
       <module name="tao" options="-parameters" />
     </option>
