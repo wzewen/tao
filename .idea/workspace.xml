@@ -2,21 +2,180 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df06c820-4e26-402a-abc0-80c2d3868271" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/read.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/springboot/read.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware-rabbitmq/middleware-rabbitmq.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware-rabbitmq/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/queue/Receiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Receiver2.java" beforeDir="false" afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/queue/Receiver2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/queue/Sender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/queue/read.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/topic/Receiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/Receiver2.java" beforeDir="false" afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/topic/Receiver2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/topic/Sender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/topic/read.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/c/slacker_synchronized_method/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/a/wait_notify/Mythread1.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter3/A/wait_notify/a/wait_notify/Mythread1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/a/wait_notify/Mythread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter3/A/wait_notify/a/wait_notify/Mythread2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/a/wait_notify/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter3/A/wait_notify/a/wait_notify/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/a/wait_notify/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter3/A/wait_notify/a/wait_notify/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/b/wait_notiry_2/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter3/A/wait_notify/b/wait_notiry_2/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/b/wait_notiry_2/MyThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter3/A/wait_notify/b/wait_notiry_2/MyThreadA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/b/wait_notiry_2/MyThreadB.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter3/A/wait_notify/b/wait_notiry_2/MyThreadB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/b/wait_notiry_2/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter3/A/wait_notify/b/wait_notiry_2/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/b/wait_notiry_2/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter3/A/wait_notify/b/wait_notiry_2/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter3/A/wait_notify/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter3/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/a/test/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/a/test/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/a/test/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/a/test/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/a/test/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/a/test/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/a/test/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/a/test/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/b/test/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/b/test/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/b/test/MyThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/b/test/MyThreadA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/b/test/MyThreadAA.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/b/test/MyThreadAA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/b/test/MyThreadB.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/b/test/MyThreadB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/b/test/MyThreadBB.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/b/test/MyThreadBB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/b/test/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/b/test/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/b/test/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/b/test/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/c/condition/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/c/condition/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/c/condition/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/c/condition/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/c/condition/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/c/condition/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/c/condition/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/c/condition/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/d/condition_more/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/d/condition_more/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/d/condition_more/MyThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/d/condition_more/MyThreadA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/d/condition_more/MyThreadB.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/d/condition_more/MyThreadB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/d/condition_more/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/d/condition_more/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/d/condition_more/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/d/condition_more/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/e/condition_producer_consumer/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/e/condition_producer_consumer/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/e/condition_producer_consumer/MyThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/e/condition_producer_consumer/MyThreadA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/e/condition_producer_consumer/MyThreadB.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/e/condition_producer_consumer/MyThreadB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/e/condition_producer_consumer/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/e/condition_producer_consumer/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/e/condition_producer_consumer/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/e/condition_producer_consumer/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/f/fair_nofair_lock/FairRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/f/fair_nofair_lock/FairRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/f/fair_nofair_lock/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/f/fair_nofair_lock/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/f/fair_nofair_lock/NotFairRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/f/fair_nofair_lock/NotFairRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/f/fair_nofair_lock/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/f/fair_nofair_lock/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/g/getHoldCount/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/g/getHoldCount/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/g/getHoldCount/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/g/getHoldCount/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/g/getHoldCount/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/g/getHoldCount/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/h/getQueueLength/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/h/getQueueLength/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/h/getQueueLength/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/h/getQueueLength/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/h/getQueueLength/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/h/getQueueLength/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/i/getWaitQueueLength/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/i/getWaitQueueLength/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/i/getWaitQueueLength/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/i/getWaitQueueLength/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/i/getWaitQueueLength/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/i/getWaitQueueLength/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/j/hasQueuedThread/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/j/hasQueuedThread/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/j/hasQueuedThread/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/j/hasQueuedThread/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/j/hasQueuedThread/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/j/hasQueuedThread/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/k/hasWaiters/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/k/hasWaiters/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/k/hasWaiters/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/k/hasWaiters/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/k/hasWaiters/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/k/hasWaiters/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/l/isHeldByCurrentThread/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/l/isHeldByCurrentThread/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/l/isHeldByCurrentThread/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/l/isHeldByCurrentThread/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/l/isHeldByCurrentThread/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/l/isHeldByCurrentThread/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/m/isFair/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/m/isFair/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/m/isFair/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/m/isFair/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/m/isFair/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/m/isFair/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/n/isLocked/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/n/isLocked/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/n/isLocked/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/n/isLocked/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/n/isLocked/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/n/isLocked/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/o/lockInterruptibly/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/o/lockInterruptibly/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/o/lockInterruptibly/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/o/lockInterruptibly/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/o/lockInterruptibly/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/o/lockInterruptibly/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/p/tryLock/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/p/tryLock/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/p/tryLock/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/p/tryLock/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/p/tryLock/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/p/tryLock/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/q/tryLock_timeout/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/q/tryLock_timeout/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/q/tryLock_timeout/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/q/tryLock_timeout/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/q/tryLock_timeout/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/q/tryLock_timeout/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/r/awaitUninterruptibly/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/r/awaitUninterruptibly/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/r/awaitUninterruptibly/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/r/awaitUninterruptibly/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/r/awaitUninterruptibly/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/r/awaitUninterruptibly/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/A/ReentrantLock/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/B/ReentrantReadWriteLock/a/read_read_lock/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/B/ReentrantReadWriteLock/a/read_read_lock/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/B/ReentrantReadWriteLock/a/read_read_lock/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/B/ReentrantReadWriteLock/a/read_read_lock/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/B/ReentrantReadWriteLock/a/read_read_lock/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/B/ReentrantReadWriteLock/a/read_read_lock/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/B/ReentrantReadWriteLock/b/write_write_lock/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/B/ReentrantReadWriteLock/b/write_write_lock/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/B/ReentrantReadWriteLock/b/write_write_lock/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/B/ReentrantReadWriteLock/b/write_write_lock/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/B/ReentrantReadWriteLock/b/write_write_lock/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/B/ReentrantReadWriteLock/b/write_write_lock/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/B/ReentrantReadWriteLock/c/read_write_lock/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/B/ReentrantReadWriteLock/c/read_write_lock/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/B/ReentrantReadWriteLock/c/read_write_lock/MyThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/B/ReentrantReadWriteLock/c/read_write_lock/MyThreadA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/B/ReentrantReadWriteLock/c/read_write_lock/MyThreadB.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/B/ReentrantReadWriteLock/c/read_write_lock/MyThreadB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/B/ReentrantReadWriteLock/c/read_write_lock/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/B/ReentrantReadWriteLock/c/read_write_lock/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/B/ReentrantReadWriteLock/c/read_write_lock/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/B/ReentrantReadWriteLock/c/read_write_lock/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/B/ReentrantReadWriteLock/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/B/ReentrantReadWriteLock/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter4/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/a/task_timer_1/MyTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/a/task_timer_1/MyTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/a/task_timer_1/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/a/task_timer_1/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/a/task_timer_1/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/a/task_timer_1/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/b/task_timer_2/MyTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/b/task_timer_2/MyTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/b/task_timer_2/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/b/task_timer_2/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/c/more_task_timer/MyTaskA.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/c/more_task_timer/MyTaskA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/c/more_task_timer/MyTaskB.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/c/more_task_timer/MyTaskB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/c/more_task_timer/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/c/more_task_timer/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/c/more_task_timer/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/c/more_task_timer/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/d/task_timer_period/MyTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/d/task_timer_period/MyTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/d/task_timer_period/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/d/task_timer_period/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/d/task_timer_period/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/d/task_timer_period/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/e/task_timer_later/MyTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/e/task_timer_later/MyTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/e/task_timer_later/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/e/task_timer_later/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/e/task_timer_later/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/e/task_timer_later/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/f/task_cancel/MyTaskA.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/f/task_cancel/MyTaskA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/f/task_cancel/MyTaskB.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/f/task_cancel/MyTaskB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/f/task_cancel/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/f/task_cancel/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/f/task_cancel/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/f/task_cancel/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/g/timer_cancel/MyTaskA.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/g/timer_cancel/MyTaskA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/g/timer_cancel/MyTaskB.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/g/timer_cancel/MyTaskB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/g/timer_cancel/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/g/timer_cancel/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/g/timer_cancel/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/g/timer_cancel/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/h/timer_cancel_fair/MyTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/h/timer_cancel_fair/MyTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/h/timer_cancel_fair/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/h/timer_cancel_fair/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/h/timer_cancel_fair/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/h/timer_cancel_fair/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/i/schedule_task_delay/MyTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/i/schedule_task_delay/MyTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/i/schedule_task_delay/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/i/schedule_task_delay/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/i/schedule_task_delay/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/i/schedule_task_delay/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/j/schedule_task_delay_period/MyTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/j/schedule_task_delay_period/MyTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/j/schedule_task_delay_period/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/j/schedule_task_delay_period/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/j/schedule_task_delay_period/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/j/schedule_task_delay_period/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter5/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/a/hungry_man/MyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/a/hungry_man/MyObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/a/hungry_man/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/b/slacker_type/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/a/hungry_man/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/a/hungry_man/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/a/hungry_man/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/a/hungry_man/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/b/slacker_type/MyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/b/slacker_type/MyObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/b/slacker_type/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/a/hungry_man/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/b/slacker_type/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/b/slacker_type/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/b/slacker_type/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/b/slacker_type/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/c/slacker_synchronized_method/MyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/c/slacker_synchronized_method/MyObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/c/slacker_synchronized_method/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/d/slacker_synchronized_dcl/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/c/slacker_synchronized_method/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/c/slacker_synchronized_method/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/c/slacker_synchronized_method/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/c/slacker_synchronized_method/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/d/slacker_synchronized_dcl/MyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/d/slacker_synchronized_dcl/MyObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/d/slacker_synchronized_dcl/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/f/singleton_static_block/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/d/slacker_synchronized_dcl/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/d/slacker_synchronized_dcl/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/d/slacker_synchronized_dcl/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/d/slacker_synchronized_dcl/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/e/singleton_inner_class/MyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/e/singleton_inner_class/MyObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/e/singleton_inner_class/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/e/singleton_inner_class/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/e/singleton_inner_class/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/f/singleton_static_block/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/e/singleton_inner_class/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/e/singleton_inner_class/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/f/singleton_static_block/MyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/f/singleton_static_block/MyObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/f/singleton_static_block/MyThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/f/singleton_static_block/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/e/singleton_inner_class/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/f/singleton_static_block/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/f/singleton_static_block/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter6/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter6/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/A/status/a/new_runnable_terminated/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter7/A/status/a/new_runnable_terminated/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/A/status/a/new_runnable_terminated/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter7/A/status/a/new_runnable_terminated/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/A/status/a/new_runnable_terminated/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter7/A/status/a/new_runnable_terminated/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/A/status/b/timed_waiting/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter7/A/status/b/timed_waiting/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/A/status/b/timed_waiting/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter7/A/status/b/timed_waiting/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/A/status/b/timed_waiting/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter7/A/status/b/timed_waiting/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/A/status/c/blocked/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter7/A/status/c/blocked/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/A/status/c/blocked/MyThread1.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter7/A/status/c/blocked/MyThread1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/A/status/c/blocked/MyThread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter7/A/status/c/blocked/MyThread2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/A/status/c/blocked/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter7/A/status/c/blocked/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/A/status/c/blocked/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter7/A/status/c/blocked/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/A/status/d/waiting/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter7/A/status/d/waiting/Lock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/A/status/d/waiting/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter7/A/status/d/waiting/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/A/status/d/waiting/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter7/A/status/d/waiting/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/A/status/d/waiting/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter7/A/status/d/waiting/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/A/status/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter7/A/status/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/B/group/a/group_add_thread/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter7/B/group/a/group_add_thread/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/B/group/a/group_add_thread/ThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter7/B/group/a/group_add_thread/ThreadA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/B/group/a/group_add_thread/ThreadB.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter7/B/group/a/group_add_thread/ThreadB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/B/group/a/group_add_thread/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter7/B/group/a/group_add_thread/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/B/group/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter7/B/group/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter7/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter7/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/practice/chapter6/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/practice/chapter6/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/practice/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/practice/read.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,18 +198,18 @@
         <entry file="file://$PROJECT_DIR$/middleware-rabbitmq/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/read.txt">
+        <entry file="file://$PROJECT_DIR$/middleware-activemq/src/main/java/com/java/tao/activemq/base/read.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/springboot/read.txt">
+        <entry file="file://$PROJECT_DIR$/middleware-activemq/src/main/java/com/java/tao/activemq/springboot/read.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -166,134 +325,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="middleware-acivemq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="middleware-acivemq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="middleware-acivemq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="middleware-acivemq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="middleware-acivemq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="middleware-acivemq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="activemq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="middleware-acivemq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="activemq" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="middleware-rabbitmq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="middleware-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="middleware-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="middleware-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="middleware-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -370,7 +402,7 @@
     </configuration>
     <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.thread.chapter5.e.task_timer_later.Run" />
-      <module name="javathread" />
+      <module name="java-thread" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.java.thread.chapter5.e.task_timer_later.*" />
@@ -520,7 +552,7 @@
       <workItem from="1573178357216" duration="14839000" />
       <workItem from="1573265606212" duration="3897000" />
       <workItem from="1573437838727" duration="3732000" />
-      <workItem from="1573463238147" duration="392000" />
+      <workItem from="1573463238147" duration="640000" />
     </task>
     <task id="LOCAL-00001" summary="get into tao">
       <created>1571124066329</created>
@@ -711,15 +743,28 @@
       <option name="project" value="LOCAL" />
       <updated>1573465482797</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="activemq">
+      <created>1573465793197</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1573465793197</updated>
+    </task>
+    <task id="LOCAL-00029" summary="activemq">
+      <created>1573465893638</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1573465893638</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141356000" />
+    <option name="totallyTimeSpent" value="141604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="803" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24892704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -868,14 +913,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/single/QueueReceiver.java" />
     <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/single/QueueSender.java" />
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/queue/Receiver2.java">
+    <entry file="file://$PROJECT_DIR$/middleware-activemq/src/main/java/com/java/tao/activemq/base/queue/Receiver2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/topic/Receiver.java">
+    <entry file="file://$PROJECT_DIR$/middleware-activemq/src/main/java/com/java/tao/activemq/base/topic/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
@@ -885,28 +930,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/topic/Receiver2.java">
+    <entry file="file://$PROJECT_DIR$/middleware-activemq/src/main/java/com/java/tao/activemq/base/topic/Receiver2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/queue/read.txt">
+    <entry file="file://$PROJECT_DIR$/middleware-activemq/src/main/java/com/java/tao/activemq/base/queue/read.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/topic/read.txt">
+    <entry file="file://$PROJECT_DIR$/middleware-activemq/src/main/java/com/java/tao/activemq/base/topic/read.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/topic/Sender.java">
+    <entry file="file://$PROJECT_DIR$/middleware-activemq/src/main/java/com/java/tao/activemq/base/topic/Sender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
@@ -916,7 +961,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/queue/Receiver.java">
+    <entry file="file://$PROJECT_DIR$/middleware-activemq/src/main/java/com/java/tao/activemq/base/queue/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
@@ -1768,21 +1813,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/pom.xml">
+    <entry file="file://$PROJECT_DIR$/middleware-activemq/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="499">
           <caret line="37" column="21" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="37" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/middleware-activemq/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/service/ConsumerListener.java">
+    <entry file="file://$PROJECT_DIR$/middleware-activemq/src/main/java/com/java/tao/activemq/springboot/service/ConsumerListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="49" column="25" selection-end-line="67" />
@@ -1834,7 +1879,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/queue/Sender.java">
+    <entry file="file://$PROJECT_DIR$/middleware-activemq/src/main/java/com/java/tao/activemq/base/queue/Sender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="27" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="26" selection-end-column="27" />
@@ -1845,14 +1890,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/answer/SessionTransacted.java" />
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/answer/read.txt">
+    <entry file="file://$PROJECT_DIR$/middleware-activemq/src/main/java/com/java/tao/activemq/springboot/answer/read.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/answer/a/session_transacted/Sender.java">
+    <entry file="file://$PROJECT_DIR$/middleware-activemq/src/main/java/com/java/tao/activemq/springboot/answer/a/session_transacted/Sender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
@@ -1862,7 +1907,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/ActiveMQConf.java">
+    <entry file="file://$PROJECT_DIR$/middleware-activemq/src/main/java/com/java/tao/activemq/springboot/config/ActiveMQConf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="53" column="51" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="51" />
@@ -1872,7 +1917,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/Provider.java">
+    <entry file="file://$PROJECT_DIR$/middleware-activemq/src/main/java/com/java/tao/activemq/springboot/config/Provider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
@@ -1883,7 +1928,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/answer/a/session_transacted/Consumer.java">
+    <entry file="file://$PROJECT_DIR$/middleware-activemq/src/main/java/com/java/tao/activemq/springboot/answer/a/session_transacted/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
@@ -1896,14 +1941,14 @@
     <entry file="file://$PROJECT_DIR$/middleware-rabbitmq/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/read.txt">
+    <entry file="file://$PROJECT_DIR$/middleware-activemq/src/main/java/com/java/tao/activemq/base/read.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/springboot/read.txt">
+    <entry file="file://$PROJECT_DIR$/middleware-activemq/src/main/java/com/java/tao/activemq/springboot/read.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>

@@ -8,8 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="middleware-rabbitmq" />
+        <module name="java-thread" />
         <module name="middleware-activemq" />
-        <module name="javathread" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -19,7 +19,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common" options="-parameters" />
-      <module name="javathread" options="-parameters" />
+      <module name="java-thread" options="-parameters" />
       <module name="middleware-activemq" options="-parameters" />
       <module name="middleware-rabbitmq" options="-parameters" />
       <module name="tao" options="-parameters" />
