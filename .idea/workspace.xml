@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df06c820-4e26-402a-abc0-80c2d3868271" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/middleware-acivemq/middleware-acivemq.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware-acivemq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/ActiveMQConf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/Provider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Receiver2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Sender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/read.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/service/ConsumerListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/Receiver2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/Sender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/read.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/tao/controller/ActivemqController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/answer/a/session_transacted/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/answer/a/session_transacted/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/answer/read.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/tao/utils/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/tao/utils/DateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/tao/utils/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/tao/utils/DateUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/ActiveMQConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/ActiveMQConf.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,74 +25,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/middleware-acivemq/pom.xml">
+        <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/answer/read.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="37" column="21" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="37" selection-end-column="21" />
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/answer/a/session_transacted/Sender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/ActiveMQConf.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="79" column="13" lean-forward="true" selection-end-line="101" />
+            <state relative-caret-position="255">
+              <caret line="15" column="66" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#812#813#0" expanded="true" />
-                <element signature="e#941#942#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/Provider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="23" column="7" lean-forward="true" selection-end-line="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
-                <element signature="e#924#925#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/tao/controller/ActivemqController.java">
+        <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/answer/a/session_transacted/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/service/ConsumerListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="49" column="25" selection-end-line="67" />
+            <state relative-caret-position="306">
+              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,6 +78,7 @@
       <find>,</find>
       <find>中信</find>
       <find>log4</find>
+      <find>hello</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -150,10 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/java/tao/utils/MatrixThreadPool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/tao/utils/MatrixThreadGroup.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/tao/utils/HttpUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/tao/gaode/a.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/tao/gaode/AddressDot.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/tao/bean/Result.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/tao/controller/MatrixController.java" />
@@ -201,6 +139,10 @@
         <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/Provider.java" />
         <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/service/ConsumerListener.java" />
         <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/ActiveMQConf.java" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/answer/read.txt" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/answer/SessionTransacted.java" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/answer/a/session_transacted/Sender.java" />
+        <option value="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/answer/a/session_transacted/Consumer.java" />
       </list>
     </option>
   </component>
@@ -216,7 +158,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="803" />
@@ -227,9 +169,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,13 +217,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
-    <configuration name="Receiver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.tao.topic.Receiver" />
+  <component name="RunManager" selected="Application.Consumer">
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.tao.answer.a.session_transacted.Consumer" />
       <module name="middleware-acivemq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.tao.topic.*" />
+          <option name="PATTERN" value="com.java.tao.answer.a.session_transacted.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -295,32 +237,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.java.tao.topic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Receiver2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.tao.queue.Receiver2" />
-      <module name="middleware-acivemq" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.tao.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.thread.chapter6.b.slacker_type.Run" />
-      <module name="javathread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.thread.chapter6.b.slacker_type.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -368,11 +284,24 @@
       </method>
     </configuration>
     <configuration name="Sender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.tao.queue.Sender" />
+      <option name="MAIN_CLASS_NAME" value="com.java.tao.answer.a.session_transacted.Sender" />
       <module name="middleware-acivemq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.tao.queue.*" />
+          <option name="PATTERN" value="com.java.tao.answer.a.session_transacted.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SessionTransacted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.tao.answer.SessionTransacted" />
+      <module name="middleware-acivemq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.tao.answer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,11 +318,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Consumer" />
+        <item itemvalue="Application.Sender" />
+        <item itemvalue="Application.SessionTransacted" />
         <item itemvalue="Application.Sender (1)" />
         <item itemvalue="Application.Receiver2 (1)" />
-        <item itemvalue="Application.Receiver (1)" />
-        <item itemvalue="Application.Sender" />
-        <item itemvalue="Application.Receiver2" />
       </list>
     </recent_temporary>
   </component>
@@ -417,7 +346,9 @@
       <workItem from="1572600692626" duration="387000" />
       <workItem from="1572703843744" duration="4575000" />
       <workItem from="1572838100260" duration="17118000" />
-      <workItem from="1573178357216" duration="10861000" />
+      <workItem from="1573178357216" duration="14839000" />
+      <workItem from="1573265606212" duration="3897000" />
+      <workItem from="1573437838727" duration="1192000" />
     </task>
     <task id="LOCAL-00001" summary="get into tao">
       <created>1571124066329</created>
@@ -587,16 +518,23 @@
       <option name="project" value="LOCAL" />
       <updated>1573021100303</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="activemq">
+      <created>1573200559070</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1573200559070</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129357000" />
+    <option name="totallyTimeSpent" value="138424000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="803" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="803" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23819743" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2453505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -607,7 +545,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.45428973" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5049226" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.56540084" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -655,70 +593,10 @@
     <MESSAGE value="wait/notify" />
     <MESSAGE value="practice" />
     <MESSAGE value="BankBrandPoi gaode" />
-    <option name="LAST_COMMIT_MESSAGE" value="BankBrandPoi gaode" />
+    <MESSAGE value="activemq" />
+    <option name="LAST_COMMIT_MESSAGE" value="activemq" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/a/wait_notify/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/a/wait_notify/read.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/read.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/b/wait_notiry_2.java" />
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/b/wait_notiry_2/MyList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/b/wait_notiry_2/MyThreadA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/b/wait_notiry_2/MyThreadB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/b/wait_notiry_2/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/b/wait_notiry_2/read.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -822,26 +700,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/single/QueueReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/single/QueueSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/single/QueueReceiver.java" />
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/single/QueueSender.java" />
     <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Receiver2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -890,16 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Sender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -910,45 +760,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/JMSProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/JMSConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/controller/JmsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/controller/SenderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/JMSProducer.java" />
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/JMSConsumer.java" />
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/controller/JmsController.java" />
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/controller/SenderController.java" />
     <entry file="file://$PROJECT_DIR$/java-thread/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1755,6 +1570,7 @@
             <node>org.springframework.boot:spring-boot-starter-activemq:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
           </SelectedNodes>
           <Categories />
+          <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
@@ -1800,20 +1616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/ActiveMQConf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="79" column="13" lean-forward="true" selection-end-line="101" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/Provider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
@@ -1844,6 +1646,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0.jar!/org/apache/activemq/broker/region/policy/RedeliveryPolicyMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+          <folding>
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0.jar!/org/apache/activemq/ActiveMQConnectionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="501" column="46" selection-start-line="501" selection-start-column="46" selection-end-line="501" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0.jar!/org/apache/activemq/filter/DestinationMapEntry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0.jar!/org/apache/activemq/filter/DestinationMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/config/ActiveMQConf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="53" column="51" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Sender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="27" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/answer/SessionTransacted.java" />
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/answer/read.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/answer/a/session_transacted/Sender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/answer/a/session_transacted/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

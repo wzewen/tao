@@ -1,0 +1,6 @@
+activemq的应答模式有：
+    AUTO_ACKNOWLEDGE = 1 自动确认
+    CLIENT_ACKNOWLEDGE = 2 客户端手动确认
+    DUPS_OK_ACKNOWLEDGE = 3 自动批量确认
+    SESSION_TRANSACTED = 0 事务提交并确认
+    INDIVIDUAL_ACKNOWLEDGE = 4 单条消息确认（AcitveMQ补充的一个自定义的ACK_MODE，只有ActiveMQ支持）

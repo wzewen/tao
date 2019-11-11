@@ -1,15 +1,20 @@
 package com.java.tao.config;
 
+import org.apache.activemq.ActiveMQConnection;
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.apache.activemq.RedeliveryPolicy;
+import org.apache.activemq.broker.region.policy.RedeliveryPolicyMap;
 import org.apache.activemq.command.ActiveMQQueue;
 import org.apache.activemq.command.ActiveMQTopic;
+import org.apache.activemq.filter.DestinationMapEntry;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jms.config.DefaultJmsListenerContainerFactory;
 import org.springframework.jms.config.JmsListenerContainerFactory;
+import org.springframework.jms.core.JmsTemplate;
 
+import javax.jms.Destination;
 import javax.jms.Queue;
 import javax.jms.Topic;
 
@@ -39,6 +44,28 @@ public class ActiveMQConf {
     }
 
     /**
+     * 消息重发机制
+     * @return
+     */
+//    @Bean
+//    public RedeliveryPolicy testQueueRedeliveryPolicy(){
+//        RedeliveryPolicy redeliveryPolicy = new RedeliveryPolicy();
+//        //是否在每次失败重发时，增长等待时间
+//        redeliveryPolicy.setUseExponentialBackOff(true);
+//        //设置重发最大拖延时间，-1表示没有拖延，只有setUseExponentialBackOff(true)时生效
+//        redeliveryPolicy.setMaximumRedeliveryDelay(-1);
+//        //重发次数，默认为6
+//        redeliveryPolicy.setMaximumRedeliveries(6);
+//        //重发时间间隔，默认1s
+//        redeliveryPolicy.setInitialRedeliveryDelay(1);
+//        //第一次失败后重发前等待500毫秒，第二次500*2，依次递增
+//        redeliveryPolicy.setBackOffMultiplier(2);
+//        //是否避免消息碰撞
+//        redeliveryPolicy.setUseCollisionAvoidance(false);
+//        return redeliveryPolicy;
+//    }
+
+    /**
      * 连接工厂对象
      * @return
      */
@@ -46,9 +73,18 @@ public class ActiveMQConf {
     public ActiveMQConnectionFactory connectionFactoryQueue(){
         ActiveMQConnectionFactory activeMQConnectionFactory = new ActiveMQConnectionFactory();
         //设置重发机制
-        activeMQConnectionFactory.setRedeliveryPolicy(redeliveryPolicy());
+        //activeMQConnectionFactory.setRedeliveryPolicy(redeliveryPolicy());
         return activeMQConnectionFactory;
     }
+
+//    @Bean
+//    public JmsTemplate jmsTemplate(@Qualifier("connectionFactoryQueue") ActiveMQConnectionFactory connectionFactory){
+//        JmsTemplate jmsTemplate = new JmsTemplate();
+//        jmsTemplate.setDeliveryMode(2);//设置持久化，1 非持久， 2 持久化
+//        jmsTemplate.setConnectionFactory(connectionFactory);
+//        jmsTemplate.setSessionAcknowledgeMode(1);//消息确认模式
+//        return jmsTemplate;
+//    }
 
     /**
      * 点对点模式监听工厂bean
@@ -60,6 +96,9 @@ public class ActiveMQConf {
         DefaultJmsListenerContainerFactory defaultJmsListenerContainerFactory = new DefaultJmsListenerContainerFactory();
         defaultJmsListenerContainerFactory.setPubSubDomain(false);//队列模式
         defaultJmsListenerContainerFactory.setConnectionFactory(connectionFactory);
+        defaultJmsListenerContainerFactory.setConcurrency("1-10");//设置连接数
+        defaultJmsListenerContainerFactory.setRecoveryInterval(1000L);//重连间隔时间
+        defaultJmsListenerContainerFactory.setSessionAcknowledgeMode(4);
         return defaultJmsListenerContainerFactory;
     }
 
@@ -73,29 +112,10 @@ public class ActiveMQConf {
         DefaultJmsListenerContainerFactory defaultJmsListenerContainerFactory = new DefaultJmsListenerContainerFactory();
         defaultJmsListenerContainerFactory.setPubSubDomain(true);//主题模式
         defaultJmsListenerContainerFactory.setConnectionFactory(connectionFactory);
+        defaultJmsListenerContainerFactory.setConcurrency("1-10");//设置连接数
+        defaultJmsListenerContainerFactory.setRecoveryInterval(1000L);//重连间隔时间
+        defaultJmsListenerContainerFactory.setSessionAcknowledgeMode(4);
         return defaultJmsListenerContainerFactory;
-    }
-
-    /**
-     * 消息重发机制
-     * @return
-     */
-    @Bean
-    public RedeliveryPolicy redeliveryPolicy(){
-        RedeliveryPolicy redeliveryPolicy=   new RedeliveryPolicy();
-        //是否在每次尝试重新发送失败后,增长这个等待时间
-        redeliveryPolicy.setUseExponentialBackOff(true);
-        //重发次数,默认为6次   这里设置为10次
-        redeliveryPolicy.setMaximumRedeliveries(10);
-        //重发时间间隔,默认为1秒
-        redeliveryPolicy.setInitialRedeliveryDelay(1);
-        //第一次失败后重新发送之前等待500毫秒,第二次失败再等待500 * 2毫秒,这里的2就是value
-        redeliveryPolicy.setBackOffMultiplier(2);
-        //是否避免消息碰撞
-        redeliveryPolicy.setUseCollisionAvoidance(false);
-        //设置重发最大拖延时间-1 表示没有拖延只有UseExponentialBackOff(true)为true时生效
-        redeliveryPolicy.setMaximumRedeliveryDelay(-1);
-        return redeliveryPolicy;
     }
 
 }
