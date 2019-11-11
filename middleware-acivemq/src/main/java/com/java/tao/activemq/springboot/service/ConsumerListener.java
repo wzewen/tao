@@ -1,4 +1,4 @@
-package com.java.tao.service;
+package com.java.tao.activemq.springboot.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

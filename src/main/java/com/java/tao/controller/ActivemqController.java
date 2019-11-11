@@ -1,6 +1,6 @@
 package com.java.tao.controller;
 
-import com.java.tao.config.Provider;
+import com.java.tao.activemq.springboot.config.Provider;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

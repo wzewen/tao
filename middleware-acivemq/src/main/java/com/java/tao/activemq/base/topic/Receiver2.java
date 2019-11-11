@@ -1,4 +1,4 @@
-package com.java.tao.topic;
+package com.java.tao.activemq.base.topic;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 

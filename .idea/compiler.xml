@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="middleware-rabbitmq" />
         <module name="middleware-acivemq" />
         <module name="javathread" />
       </profile>
@@ -20,6 +21,7 @@
       <module name="common" options="-parameters" />
       <module name="javathread" options="-parameters" />
       <module name="middleware-acivemq" options="-parameters" />
+      <module name="middleware-rabbitmq" options="-parameters" />
       <module name="tao" options="-parameters" />
     </option>
   </component>

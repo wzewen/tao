@@ -2,16 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df06c820-4e26-402a-abc0-80c2d3868271" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/read.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/springboot/read.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware-rabbitmq/middleware-rabbitmq.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware-rabbitmq/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/answer/a/session_transacted/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/answer/a/session_transacted/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/answer/a/session_transacted/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/answer/a/session_transacted/Sender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/queue/Receiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Receiver2.java" beforeDir="false" afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/queue/Receiver2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/queue/Sender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/queue/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/topic/Receiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/Receiver2.java" beforeDir="false" afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/topic/Receiver2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/topic/Sender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/topic/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/java-thread/target/" />
     <ignored path="$PROJECT_DIR$/common/target/" />
     <ignored path="$PROJECT_DIR$/middleware-acivemq/target/" />
+    <ignored path="$PROJECT_DIR$/middleware-rabbitmq/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +34,27 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/middleware-rabbitmq/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/read.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/springboot/read.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -134,7 +166,134 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware-acivemq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware-acivemq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware-acivemq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware-acivemq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware-acivemq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware-acivemq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="activemq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware-acivemq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="activemq" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware-rabbitmq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -184,11 +343,11 @@
   </component>
   <component name="RunManager" selected="Application.Consumer">
     <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.tao.answer.a.session_transacted.Consumer" />
+      <option name="MAIN_CLASS_NAME" value="com.java.tao.activemq.springboot.answer.a.session_transacted.Consumer" />
       <module name="middleware-acivemq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.tao.answer.a.session_transacted.*" />
+          <option name="PATTERN" value="com.java.tao.activemq.springboot.answer.a.session_transacted.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,12 +355,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Receiver2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.tao.topic.Receiver2" />
+    <configuration name="Receiver2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.tao.activemq.base.topic.Receiver2" />
       <module name="middleware-acivemq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.tao.topic.*" />
+          <option name="PATTERN" value="com.java.tao.activemq.base.topic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,19 +387,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.java.thread.chapter5.e.task_timer_later.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sender (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.tao.topic.Sender" />
-      <module name="middleware-acivemq" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.tao.topic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,11 +395,24 @@
       </method>
     </configuration>
     <configuration name="Sender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.tao.answer.a.session_transacted.Sender" />
+      <option name="MAIN_CLASS_NAME" value="com.java.tao.activemq.springboot.answer.a.session_transacted.Sender" />
       <module name="middleware-acivemq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.tao.answer.a.session_transacted.*" />
+          <option name="PATTERN" value="com.java.tao.activemq.springboot.answer.a.session_transacted.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.tao.activemq.base.topic.Sender" />
+      <module name="middleware-acivemq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.tao.activemq.base.topic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,7 +425,7 @@
       <module name="middleware-acivemq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.tao.answer.*" />
+          <option name="PATTERN" value="com.java.tao.activemq.springboot.answer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,7 +473,7 @@
       <workItem from="1573178357216" duration="14839000" />
       <workItem from="1573265606212" duration="3897000" />
       <workItem from="1573437838727" duration="3732000" />
-      <workItem from="1573463238147" duration="129000" />
+      <workItem from="1573463238147" duration="392000" />
     </task>
     <task id="LOCAL-00001" summary="get into tao">
       <created>1571124066329</created>
@@ -498,14 +657,22 @@
       <option name="project" value="LOCAL" />
       <updated>1573449076823</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="activemq">
+      <created>1573465482797</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1573465482797</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141093000" />
+    <option name="totallyTimeSpent" value="141356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="803" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24892704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -570,27 +737,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="activemq" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/core/chapter3/A/wait_notify/b/wait_notiry_2/read.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/practice/read.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/thread/practice/chapter6/read.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/java/tao/gaode/controller/MatrixController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -675,14 +821,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/single/QueueReceiver.java" />
     <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/single/QueueSender.java" />
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Receiver2.java">
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/queue/Receiver2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/Receiver.java">
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/topic/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
@@ -692,28 +838,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/Receiver2.java">
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/topic/Receiver2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/read.txt">
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/queue/read.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/read.txt">
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/topic/read.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/topic/Sender.java">
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/topic/Sender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
@@ -723,7 +869,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Receiver.java">
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/queue/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
@@ -1641,7 +1787,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/queue/Sender.java">
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/queue/Sender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="27" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="26" selection-end-column="27" />
@@ -1699,6 +1845,19 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-rabbitmq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/base/read.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-acivemq/src/main/java/com/java/tao/activemq/springboot/read.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

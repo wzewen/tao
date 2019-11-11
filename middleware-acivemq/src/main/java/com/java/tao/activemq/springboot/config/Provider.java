@@ -1,4 +1,4 @@
-package com.java.tao.config;
+package com.java.tao.activemq.springboot.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

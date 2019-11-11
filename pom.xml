@@ -11,6 +11,7 @@
     <modules>
         <module>java-thread</module>
         <module>middleware-acivemq</module>
+        <module>middleware-rabbitmq</module>
     </modules>
 
     <parent>

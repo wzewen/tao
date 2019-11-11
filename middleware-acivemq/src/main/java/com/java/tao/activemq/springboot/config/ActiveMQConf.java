@@ -1,20 +1,14 @@
-package com.java.tao.config;
+package com.java.tao.activemq.springboot.config;
 
-import org.apache.activemq.ActiveMQConnection;
 import org.apache.activemq.ActiveMQConnectionFactory;
-import org.apache.activemq.RedeliveryPolicy;
-import org.apache.activemq.broker.region.policy.RedeliveryPolicyMap;
 import org.apache.activemq.command.ActiveMQQueue;
 import org.apache.activemq.command.ActiveMQTopic;
-import org.apache.activemq.filter.DestinationMapEntry;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jms.config.DefaultJmsListenerContainerFactory;
 import org.springframework.jms.config.JmsListenerContainerFactory;
-import org.springframework.jms.core.JmsTemplate;
 
-import javax.jms.Destination;
 import javax.jms.Queue;
 import javax.jms.Topic;
 
