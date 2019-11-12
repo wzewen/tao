@@ -9,11 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="middleware-rabbitmq" />
         <module name="java-thread" />
-      </profile>
-      <profile name="Annotation profile for tao" enabled="true">
-        <sourceOutputDir name="../middleware-acivemq/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../middleware-acivemq/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
         <module name="middleware-activemq" />
       </profile>
     </annotationProcessing>

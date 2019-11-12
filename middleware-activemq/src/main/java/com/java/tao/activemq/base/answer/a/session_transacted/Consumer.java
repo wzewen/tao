@@ -1,4 +1,4 @@
-package com.java.tao.activemq.springboot.answer.a.session_transacted;
+package com.java.tao.activemq.base.answer.a.session_transacted;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 

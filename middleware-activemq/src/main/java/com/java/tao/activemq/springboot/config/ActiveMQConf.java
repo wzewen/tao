@@ -32,7 +32,7 @@ public class ActiveMQConf {
      * 一个发布/订阅模式bean
      * @return
      */
-    @Bean
+    @Bean(name = "testTopic")
     public Topic topic(){
         return new ActiveMQTopic("test_topic");
     }
@@ -85,7 +85,7 @@ public class ActiveMQConf {
      * @param connectionFactory
      * @return
      */
-    @Bean
+    @Bean(name = "jmsListenerContainerQueue")
     public JmsListenerContainerFactory jmsListenerContainerQueue(@Qualifier("connectionFactoryQueue") ActiveMQConnectionFactory connectionFactory){
         DefaultJmsListenerContainerFactory defaultJmsListenerContainerFactory = new DefaultJmsListenerContainerFactory();
         defaultJmsListenerContainerFactory.setPubSubDomain(false);//队列模式
@@ -101,7 +101,7 @@ public class ActiveMQConf {
      * @param connectionFactory
      * @return
      */
-    @Bean
+    @Bean(name = "jmsListenerContainerTopic")
     public JmsListenerContainerFactory jmsListenerContainerTopic(@Qualifier("connectionFactoryQueue") ActiveMQConnectionFactory connectionFactory){
         DefaultJmsListenerContainerFactory defaultJmsListenerContainerFactory = new DefaultJmsListenerContainerFactory();
         defaultJmsListenerContainerFactory.setPubSubDomain(true);//主题模式

@@ -1,0 +1,18 @@
+发布订阅模式：
+1、每个消费者监听自己的队列。
+2、生产者将消息发给broker，由交换机将消息转发到绑定此交换机的每个队列，每个绑定交换机的队列都将接收
+到消息
+
+结论：
+1、publish/subscribe与work queues有什么区别。
+区别：
+1）work queues不用定义交换机，而publish/subscribe需要定义交换机。
+2）publish/subscribe的生产方是面向交换机发送消息，work queues的生产方是面向队列发送消息(底层使用默认
+交换机)。
+3）publish/subscribe需要设置队列和交换机的绑定，work queues不需要设置，实质上work queues会将队列绑
+定到默认的交换机 。
+相同点：
+所以两者实现的发布/订阅的效果是一样的，多个消费端监听同一个队列不会重复消费消息。
+2、实质工作用什么 publish/subscribe还是work queues。
+建议使用 publish/subscribe，发布订阅模式比工作队列模式更强大，并且发布订阅模式可以指定自己专用的交换
+机。

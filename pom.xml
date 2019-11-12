@@ -10,7 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>java-thread</module>
-        <module>middleware-acivemq</module>
+        <module>middleware-activemq</module>
         <module>middleware-rabbitmq</module>
     </modules>
 
@@ -24,15 +24,15 @@
     <dependencies>
         <dependency>
             <groupId>com.java.tao</groupId>
-            <artifactId>middleware-acivemq</artifactId>
+            <artifactId>middleware-activemq</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
-            <exclusions>
-                <exclusion>
-                    <artifactId>jackson-datatype-jdk8</artifactId>
-                    <groupId>com.fasterxml.jackson.datatype</groupId>
-                </exclusion>
-            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.java.tao</groupId>
+            <artifactId>middleware-rabbitmq</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>

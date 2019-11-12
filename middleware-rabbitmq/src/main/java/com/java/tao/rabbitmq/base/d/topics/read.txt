@@ -1,0 +1,10 @@
+主题模式：
+1、每个消费者监听自己的队列，并且设置带统配符的routingkey。
+2、生产者将消息发给broker，由交换机根据routingkey来转发消息到指定的队列。
+
+使用生产者发送若干条消息，交换机根据routingkey统配符匹配并转发消息到指定的队列。
+
+1、本案例的需求使用Routing工作模式能否实现？
+使用Routing模式也可以实现本案例，共设置三个 routingkey，分别是email、sms、all，email队列绑定email和
+all，sms队列绑定sms和all，这样就可以实现上边案例的功能，实现过程比topics复杂。
+Topic模式更多加强大，它可以实现Routing、publish/subscirbe模式的功能。

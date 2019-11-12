@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 import javax.jms.*;
 
-@Component
+@Component(value = "activeProvider")
 public class Provider {
 
     /**
@@ -22,7 +22,8 @@ public class Provider {
     /**
      * 一个主题
      */
-    @Autowired
+    @Autowired()
+    @Qualifier("testTopic")
     private Topic topic;
 
     @Autowired

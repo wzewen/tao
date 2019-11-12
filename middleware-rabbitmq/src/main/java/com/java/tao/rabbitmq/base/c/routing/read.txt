@@ -1,0 +1,8 @@
+路由模式：
+1、每个消费者监听自己的队列，并且设置routingKey。
+2、生产者将消息发给交换机，由交换机根据routingKey来转发消息到指定的队列。
+
+使用生产者发送若干条消息，交换机根据routingKey转发消息到指定的队列。
+
+1、Routing模式和Publish/subscibe有啥区别？
+Routing模式要求队列在绑定交换机时要指定routingkey，消息会转发到符合routingkey的队列。
