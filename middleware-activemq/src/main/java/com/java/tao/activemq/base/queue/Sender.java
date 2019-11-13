@@ -9,7 +9,7 @@ public class Sender {
     public static void main(String[] args) throws JMSException {
         //创建连接工厂
         ConnectionFactory connectionFactory = new ActiveMQConnectionFactory(ActiveMQConnectionFactory.DEFAULT_USER,
-                ActiveMQConnectionFactory.DEFAULT_PASSWORD, "tcp://localhost:61616");
+                ActiveMQConnectionFactory.DEFAULT_PASSWORD, "tcp://47.93.38.88:61616");
         //创建链接
         Connection connection = connectionFactory.createConnection();
         //创建会话

@@ -23,7 +23,7 @@ public class EmailConsumer {
         Connection connection = connectionFactory.newConnection();
         Channel channel = connection.createChannel();
         channel.exchangeDeclare(exchange, BuiltinExchangeType.HEADERS);
-        Map<String, Object> map = new HashMap<>();
+        Map<String, Object> map = new HashMap<String, Object>();
         map.put("head_type", "email");
         channel.queueDeclare(email, true, false, false, null);
         channel.queueBind(email, exchange, "", map);

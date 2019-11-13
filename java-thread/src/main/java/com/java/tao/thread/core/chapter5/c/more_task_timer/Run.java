@@ -1,6 +1,6 @@
 package com.java.tao.thread.core.chapter5.c.more_task_timer;
 
-import com.java.tao.utils.DateUtil;
+
 
 import java.util.Calendar;
 import java.util.Date;
@@ -9,14 +9,14 @@ import java.util.Timer;
 public class Run {
 
     public static void main(String[] args) {
-        System.out.println("now time:"+ DateUtil.dateTimeToString(new Date()));
+        System.out.println("now time:"+ System.currentTimeMillis());
         Calendar calendar = Calendar.getInstance();
         calendar.add(Calendar.SECOND, 10);
         Date time = calendar.getTime();
-        System.out.println("A plan run time:"+DateUtil.dateTimeToString(time));
+        System.out.println("A plan run time:"+System.currentTimeMillis());
         calendar.add(Calendar.SECOND, 15);
         Date time1 = calendar.getTime();
-        System.out.println("B plan run time:"+DateUtil.dateTimeToString(time1));
+        System.out.println("B plan run time:"+System.currentTimeMillis());
 
         MyTaskA a = new MyTaskA();
         MyTaskB b = new MyTaskB();

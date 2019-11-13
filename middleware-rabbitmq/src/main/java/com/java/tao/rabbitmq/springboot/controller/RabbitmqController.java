@@ -1,4 +1,5 @@
-package com.java.tao.controller;
+package com.java.tao.rabbitmq.springboot.controller;
+
 
 import com.java.tao.rabbitmq.springboot.config.Provider;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,9 +19,9 @@ public class RabbitmqController {
 
     @RequestMapping("/send")
     @ResponseBody
-    public String sendMsg(@RequestParam(name = "message") String message){
-        provider.sendEmail(message);
+    public String send(@RequestParam(name = "message") String message){
         provider.sendSms(message);
+        provider.sendEmail(message);
         provider.sendBoth(message);
         return "success";
     }

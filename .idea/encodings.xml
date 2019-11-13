@@ -5,5 +5,6 @@
     <file url="file://$PROJECT_DIR$/java-thread" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/middleware-activemq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/middleware-rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webservice-start" charset="UTF-8" />
   </component>
 </project>

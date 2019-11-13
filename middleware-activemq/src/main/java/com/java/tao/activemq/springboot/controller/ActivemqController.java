@@ -1,4 +1,4 @@
-package com.java.tao.controller;
+package com.java.tao.activemq.springboot.controller;
 
 import com.java.tao.activemq.springboot.config.Provider;
 import org.slf4j.Logger;

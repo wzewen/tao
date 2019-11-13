@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="middleware-rabbitmq" />
         <module name="java-thread" />
+        <module name="webservice-start" />
         <module name="middleware-activemq" />
       </profile>
     </annotationProcessing>
@@ -19,10 +20,11 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common" options="-parameters" />
-      <module name="java-thread" options="-parameters" />
-      <module name="middleware-activemq" options="-parameters" />
-      <module name="middleware-rabbitmq" options="-parameters" />
+      <module name="java-thread" options="" />
+      <module name="middleware-activemq" options="" />
+      <module name="middleware-rabbitmq" options="" />
       <module name="tao" options="-parameters" />
+      <module name="webservice-start" options="" />
     </option>
   </component>
 </project>

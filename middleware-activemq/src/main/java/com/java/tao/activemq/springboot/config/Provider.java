@@ -5,7 +5,9 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Component;
 
-import javax.jms.*;
+import javax.annotation.Resource;
+import javax.jms.Queue;
+import javax.jms.Topic;
 
 @Component(value = "activeProvider")
 public class Provider {
@@ -22,11 +24,11 @@ public class Provider {
     /**
      * 一个主题
      */
-    @Autowired()
+    @Autowired
     @Qualifier("testTopic")
     private Topic topic;
 
-    @Autowired
+    @Resource
     private JmsTemplate jmsTemplate;
 
     public void sendTestQueue(String message) {

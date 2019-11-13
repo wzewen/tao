@@ -63,7 +63,7 @@ public class ActiveMQConf {
      * 连接工厂对象
      * @return
      */
-    @Bean("connectionFactoryQueue")
+    @Bean(name = "connectionFactoryQueue")
     public ActiveMQConnectionFactory connectionFactoryQueue(){
         ActiveMQConnectionFactory activeMQConnectionFactory = new ActiveMQConnectionFactory();
         //设置重发机制

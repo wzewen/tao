@@ -24,9 +24,9 @@ public class Provider {
         channel.exchangeDeclare(exchange, BuiltinExchangeType.HEADERS);
         channel.queueDeclare(email, true, false, false, null);
         channel.queueDeclare(sms, true, false, false, null);
-        Map<String, Object> headerEmail = new HashMap<>();
+        Map<String, Object> headerEmail = new HashMap<String, Object>();
         headerEmail.put("head_type", "email");
-        Map<String, Object> headerSms = new HashMap<>();
+        Map<String, Object> headerSms = new HashMap<String, Object>();
         headerSms.put("head_type", "sms");
         channel.queueBind(email, exchange, "", headerEmail);
         channel.queueBind(sms, exchange, "", headerSms);
