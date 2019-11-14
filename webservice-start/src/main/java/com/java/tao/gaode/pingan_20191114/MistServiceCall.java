@@ -297,7 +297,6 @@ public class MistServiceCall {
             JSONObject jsonObject = JSONObject.parseObject(s).getJSONObject("content").getJSONObject("month").getJSONObject("hour");
             double variance = variance(jsonObject);
             return new BigDecimal(variance).setScale(4, BigDecimal.ROUND_HALF_UP);
-
         }catch (Exception e){
             e.printStackTrace();
             LOGGER.error("110[E] yx={}", yx);
@@ -465,6 +464,110 @@ public class MistServiceCall {
             LOGGER.error("203[E] yx={}", yx);
         }
         return BigDecimal.ZERO;
+    }
+
+
+    /**
+     * 204	网点附近竞业分布情况-中信银行	地理数据-品牌poi统计
+     * @param yx
+     * @return
+     */
+    public static int m_204(String yx){
+        return bankPoi(yx, "中信银行,中信银行(国际)", 204);
+    }
+
+    public static int bankPoi(String yx, String bank, int num){
+        try {
+            String[] split = yx.split(",");
+            String url = "http://140.205.217.247/dmpapi/geo/cyclepoi?point_x="+split[1]+"&point_y="+split[0]+"&point_r=2.5&appname=insight-api&limit=500&brandname="+bank;
+            String s = HttpUtils.httpGetReq(url);
+            if(StringUtils.isEmpty(s)){
+                return 0;
+            }
+            Object o = JSONObject.parseObject(s).getJSONObject("data").getJSONArray("area_data").get(0);
+            JSONObject object = JSONObject.parseObject(JSONObject.toJSONString(o));
+            Integer poi_total = object.getInteger("poi_total");
+            if(poi_total==null){
+                poi_total = 0;
+            }
+            return 100-poi_total;
+        }catch (Exception e){
+            e.printStackTrace();
+            LOGGER.error(num+"[E] yx={}", yx);
+        }
+        return 0;
+    }
+
+    /**
+     * 205	网点附近竞业分布情况-广发银行	地理数据-品牌poi统计
+     * @param yx
+     * @return
+     */
+    public static int m_205(String yx){
+        return bankPoi(yx, "广发银行", 205);
+    }
+
+    /**
+     * 206	网点附近竞业分布情况-招商银行	地理数据-品牌poi统计
+     * @param yx
+     * @return
+     */
+    public static int m_206(String yx){
+        return bankPoi(yx, "招商银行", 206);
+    }
+
+    /**
+     * 207	网点附近竞业分布情况-民生银行	地理数据-品牌poi统计
+     * @param yx
+     * @return
+     */
+    public static int m_207(String yx){
+        return bankPoi(yx, "中国民生银行", 207);
+    }
+
+    /**
+     * 208	网点附近竞业分布情况-兴业银行	地理数据-品牌poi统计
+     * @param yx
+     * @return
+     */
+    public static int m_208(String yx){
+        return bankPoi(yx, "兴业银行,法国兴业银行", 208);
+    }
+
+    /**
+     * 209	网点附近竞业分布情况-浦发银行	地理数据-品牌poi统计
+     * @param yx
+     * @return
+     */
+    public static int m_209(String yx){
+        return bankPoi(yx, "浦发银行", 209);
+    }
+
+    /**
+     * 210	网点附近竞业分布情况-光大银行	地理数据-品牌poi统计
+     * @param yx
+     * @return
+     */
+    public static int m_210(String yx){
+        return bankPoi(yx, "中国光大银行", 210);
+    }
+
+    /**
+     * 211	网点附近竞业分布情况-中国银行	地理数据-品牌poi统计
+     * @param yx
+     * @return
+     */
+    public static int m_211(String yx){
+        return bankPoi(yx, "中国银行,中国银行ATM", 211);
+    }
+
+    /**
+     * 212	网点附近竞业分布情况-工商银行	地理数据-品牌poi统计
+     * @param yx
+     * @return
+     */
+    public static int m_212(String yx){
+        return bankPoi(yx, "中国工商银行", 212);
     }
 
 }

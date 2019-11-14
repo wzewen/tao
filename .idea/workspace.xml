@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df06c820-4e26-402a-abc0-80c2d3868271" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/pingan_20191114/MistServiceCall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/pingan_20191114/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/read.txt" afterDir="false" />
+    <list default="true" id="df06c820-4e26-402a-abc0-80c2d3868271" name="Default Changelist" comment="redis">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webservice-start/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webservice-start/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/pingan_20191114/MistServiceCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/pingan_20191114/MistServiceCall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/pingan_20191114/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/pingan_20191114/Run.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,6 +14,7 @@
     <ignored path="$PROJECT_DIR$/middleware-rabbitmq/target/" />
     <ignored path="$PROJECT_DIR$/middleware-activemq/target/" />
     <ignored path="$PROJECT_DIR$/webservice-start/target/" />
+    <ignored path="$PROJECT_DIR$/middleware-redis/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +27,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/read.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/pingan_20191114/Run.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -44,10 +38,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/pingan_20191114/MistServiceCall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1070">
-              <caret line="374" lean-forward="true" selection-start-line="374" selection-end-line="374" />
+            <state relative-caret-position="-4113">
+              <caret line="298" column="82" selection-start-line="298" selection-start-column="82" selection-end-line="298" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#20960#20961#0" expanded="true" />
+                <element signature="e#20991#20992#0" expanded="true" />
+                <element signature="e#22220#22221#0" expanded="true" />
+                <element signature="e#22276#22277#0" expanded="true" />
+                <element signature="e#22151#22152#0" expanded="true" />
+                <element signature="e#22198#22199#0" expanded="true" />
+                <element signature="e#22291#22292#0" expanded="true" />
+                <element signature="e#22338#22339#0" expanded="true" />
+                <element signature="e#22473#22474#0" expanded="true" />
+                <element signature="e#22522#22523#0" expanded="true" />
+                <element signature="e#22656#22657#0" expanded="true" />
+                <element signature="e#22710#22711#0" expanded="true" />
+                <element signature="e#22832#22833#0" expanded="true" />
+                <element signature="e#22879#22880#0" expanded="true" />
+                <element signature="e#23006#23007#0" expanded="true" />
+                <element signature="e#23061#23062#0" expanded="true" />
+                <element signature="e#23194#23195#0" expanded="true" />
+                <element signature="e#23249#23250#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,7 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/middleware-rabbitmq/src/main/java/com/java/tao/rabbitmq/base/a/work_queues/Consumer.java" />
         <option value="$PROJECT_DIR$/middleware-rabbitmq/src/main/java/com/java/tao/rabbitmq/base/a/work_queues/read.txt" />
         <option value="$PROJECT_DIR$/middleware-rabbitmq/src/main/java/com/java/tao/rabbitmq/base/b/publish_subscribe/Provider.java" />
         <option value="$PROJECT_DIR$/middleware-rabbitmq/src/main/java/com/java/tao/rabbitmq/base/b/publish_subscribe/EmailConsumer.java" />
@@ -149,6 +160,7 @@
         <option value="$PROJECT_DIR$/middleware-activemq/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/middleware-activemq/pom.xml" />
         <option value="$PROJECT_DIR$/webservice-start/pom.xml" />
+        <option value="$PROJECT_DIR$/middleware-redis/src/main/java/com/java/tao/redis/read.txt" />
         <option value="$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/pingan_20191114/Run.java" />
         <option value="$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/pingan_20191114/MistServiceCall.java" />
       </list>
@@ -218,7 +230,73 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="webservice-start" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="webservice-start" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="webservice-start" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="webservice-start" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="webservice-start" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="webservice-start" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="gaode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="webservice-start" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="gaode" type="462c0819:PsiDirectoryNode" />
+              <item name="pingan_20191114" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -381,7 +459,7 @@
       <workItem from="1573548535117" duration="147000" />
       <workItem from="1573548824965" duration="2803000" />
       <workItem from="1573551927371" duration="3584000" />
-      <workItem from="1573630596353" duration="20378000" />
+      <workItem from="1573630596353" duration="24012000" />
     </task>
     <task id="LOCAL-00001" summary="get into tao">
       <created>1571124066329</created>
@@ -621,11 +699,25 @@
       <option name="project" value="LOCAL" />
       <updated>1573640021952</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="gaode pingan">
+      <created>1573714980814</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1573714980814</updated>
+    </task>
+    <task id="LOCAL-00036" summary="redis">
+      <created>1573715583155</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1573715583155</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187361000" />
+    <option name="totallyTimeSpent" value="190995000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -639,7 +731,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="803" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1788269" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19027181" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -655,7 +747,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32911393" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.6061885" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.6061885" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.26300985" />
@@ -737,22 +829,11 @@
     <MESSAGE value="thread" />
     <MESSAGE value="rabbitmq" />
     <MESSAGE value="springboot fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="springboot fixed" />
+    <MESSAGE value="gaode pingan" />
+    <MESSAGE value="redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webservice-start/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/bean/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-rabbitmq/src/main/java/com/java/tao/rabbitmq/springboot/read.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-jms/5.2.1.RELEASE/spring-jms-5.2.1.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -1102,16 +1183,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/read.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/webservice-start/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
@@ -1136,6 +1207,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/read.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-redis/src/main/java/com/java/tao/redis/read.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2770">
+          <caret line="300" column="30" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/pingan_20191114/Run.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1145,10 +1243,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/pingan_20191114/MistServiceCall.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1070">
-          <caret line="374" lean-forward="true" selection-start-line="374" selection-end-line="374" />
+        <state relative-caret-position="-4113">
+          <caret line="298" column="82" selection-start-line="298" selection-start-column="82" selection-end-line="298" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#20960#20961#0" expanded="true" />
+            <element signature="e#20991#20992#0" expanded="true" />
+            <element signature="e#22220#22221#0" expanded="true" />
+            <element signature="e#22276#22277#0" expanded="true" />
+            <element signature="e#22151#22152#0" expanded="true" />
+            <element signature="e#22198#22199#0" expanded="true" />
+            <element signature="e#22291#22292#0" expanded="true" />
+            <element signature="e#22338#22339#0" expanded="true" />
+            <element signature="e#22473#22474#0" expanded="true" />
+            <element signature="e#22522#22523#0" expanded="true" />
+            <element signature="e#22656#22657#0" expanded="true" />
+            <element signature="e#22710#22711#0" expanded="true" />
+            <element signature="e#22832#22833#0" expanded="true" />
+            <element signature="e#22879#22880#0" expanded="true" />
+            <element signature="e#23006#23007#0" expanded="true" />
+            <element signature="e#23061#23062#0" expanded="true" />
+            <element signature="e#23194#23195#0" expanded="true" />
+            <element signature="e#23249#23250#0" expanded="true" />
           </folding>
         </state>
       </provider>
