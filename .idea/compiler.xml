@@ -11,6 +11,7 @@
         <module name="java-thread" />
         <module name="webservice-start" />
         <module name="middleware-activemq" />
+        <module name="middleware-redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
