@@ -1,0 +1,11 @@
+logging:
+  config: classpath:logback-spring.xml
+
+server:
+  port: 8082
+spring:
+  rabbitmq:
+    host: localhost
+    username: guest
+    password: guest
+    virtual-host: /
