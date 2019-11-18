@@ -5,11 +5,10 @@ import java.math.BigDecimal;
 public class Run {
 
     public static void main(String[] args) {
-        int i = MistServiceCall.m_311("22.538133,114.055547");
-        int j = MistServiceCall.m_311("22.540543,114.107610");
-        System.out.println("************************ i : "+i);
-        System.out.println("************************ j : "+j);
+        BigDecimal r1 = MistServiceCall.m_303("22.488841,113.925108");
+        BigDecimal r2 = MistServiceCall.m_101("22.538133,114.055547");
+        System.out.println("********** r1 : "+r1);
+        System.out.println("********** r2 : "+r2);
     }
-
 
 }

@@ -18,24 +18,24 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_101(String yx){
+    public static BigDecimal m_101(String yx){
         try {
             String url = "http://pre-mist-service.amap.com/mist/flow?type=0&type_info=2.5&magic=1&loc_type=month&field=day&month=201909&yx="+yx;
             String s = HttpUtils.httpGetReq(url);
             if(StringUtils.isEmpty(s)){
-                return -1;
+                return BigDecimal.ZERO;
             }
             Integer integer = JSONObject.parseObject(s).getJSONObject("content").getJSONObject("month").getInteger("day");
             if(integer!=null){
-                return integer;
+                return new BigDecimal(integer+"");
             }else {
-                return -1;
+                return BigDecimal.ZERO;
             }
         }catch (Exception e){
-            e.printStackTrace();
+            
             LOGGER.error("101[E] yx={}", yx);
         }
-        return -1;
+        return BigDecimal.ZERO;
     }
 
     /**
@@ -67,7 +67,7 @@ public class MistServiceCall {
             BigDecimal sum = juvenile.add(youth).add(adult).add(midage).add(highage).add(oldage);
             return sum.setScale(6, BigDecimal.ROUND_HALF_UP);
         }catch (Exception e){
-            e.printStackTrace();
+            
             LOGGER.error("102[E] yx={}",yx);
         }
         return BigDecimal.ZERO;
@@ -98,7 +98,7 @@ public class MistServiceCall {
             BigDecimal sum = salariat.add(midclass).add(plutocrat).add(superrich);
             return sum.setScale(6, BigDecimal.ROUND_HALF_UP);
         }catch (Exception e){
-            e.printStackTrace();
+            
             LOGGER.error("103[E] yx={}",yx);
         }
         return BigDecimal.ZERO;
@@ -129,7 +129,7 @@ public class MistServiceCall {
             BigDecimal sum = junior.add(bachelor).add(master).add(doctor);
             return sum.setScale(6, BigDecimal.ROUND_HALF_UP);
         }catch (Exception e){
-            e.printStackTrace();
+            
             LOGGER.error("104[E] yx={}",yx);
         }
         return BigDecimal.ZERO;
@@ -155,7 +155,7 @@ public class MistServiceCall {
             BigDecimal result = BigDecimal.ONE.subtract(housewife);
             return result.setScale(6, BigDecimal.ROUND_HALF_UP);
         }catch (Exception e){
-            e.printStackTrace();
+            
             LOGGER.error("105[E] yx={}",yx);
         }
         return BigDecimal.ZERO;
@@ -189,7 +189,7 @@ public class MistServiceCall {
             BigDecimal result = officer.add(staff).add(medical).add(teacher).add(researcher);
             return result.setScale(6, BigDecimal.ROUND_HALF_UP);
         }catch (Exception e){
-            e.printStackTrace();
+            
             LOGGER.error("106[E] yx={}",yx);
         }
         return BigDecimal.ZERO;
@@ -221,7 +221,7 @@ public class MistServiceCall {
             BigDecimal result = BigDecimal.ONE.subtract(taxi).subtract(deliver).subtract(servant).subtract(truck);
             return result.setScale(6, BigDecimal.ROUND_HALF_UP);
         }catch (Exception e){
-            e.printStackTrace();
+            
             LOGGER.error("107[E] yx={}",yx);
         }
         return BigDecimal.ZERO;
@@ -234,24 +234,24 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_108(String yx){
+    public static BigDecimal m_108(String yx){
         try {
             String url = "http://pre-mist-service.amap.com/mist/flow?type=0&type_info=2.5&magic=1&loc_type=weekday&field=day&month=201909&yx="+yx;
             String s = HttpUtils.httpGetReq(url);
             if(StringUtils.isEmpty(s)){
-                return -1;
+                return BigDecimal.ZERO;
             }
             Integer integer = JSONObject.parseObject(s).getJSONObject("content").getJSONObject("weekday").getInteger("day");
             if(integer!=null){
-                return integer;
+                return new BigDecimal(integer+"");
             }else {
-                return -1;
+                return BigDecimal.ZERO;
             }
         }catch (Exception e){
-            e.printStackTrace();
+            
             LOGGER.error("108[E] yx={}", yx);
         }
-        return -1;
+        return BigDecimal.ZERO;
     }
 
 
@@ -261,24 +261,24 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_109(String yx){
+    public static BigDecimal m_109(String yx){
         try {
             String url = "http://pre-mist-service.amap.com/mist/flow?type=0&type_info=2.5&magic=1&loc_type=weekend&field=day&month=201909&yx="+yx;
             String s = HttpUtils.httpGetReq(url);
             if(StringUtils.isEmpty(s)){
-                return -1;
+                return BigDecimal.ZERO;
             }
             Integer integer = JSONObject.parseObject(s).getJSONObject("content").getJSONObject("weekend").getInteger("day");
             if(integer!=null){
-                return integer;
+                return new BigDecimal(integer+"");
             }else {
-                return -1;
+                return BigDecimal.ZERO;
             }
         }catch (Exception e){
-            e.printStackTrace();
+            
             LOGGER.error("109[E] yx={}", yx);
         }
-        return -1;
+        return BigDecimal.ZERO;
     }
 
     /**
@@ -298,7 +298,7 @@ public class MistServiceCall {
             double variance = variance(jsonObject);
             return new BigDecimal(variance).setScale(4, BigDecimal.ROUND_HALF_UP);
         }catch (Exception e){
-            e.printStackTrace();
+            
             LOGGER.error("110[E] yx={}", yx);
         }
         return BigDecimal.ZERO;
@@ -366,7 +366,7 @@ public class MistServiceCall {
             return new BigDecimal(variance).setScale(4, BigDecimal.ROUND_HALF_UP);
 
         }catch (Exception e){
-            e.printStackTrace();
+            
             LOGGER.error("111[E] yx={}", yx);
         }
         return BigDecimal.ZERO;
@@ -391,7 +391,7 @@ public class MistServiceCall {
             return new BigDecimal(variance).setScale(4, BigDecimal.ROUND_HALF_UP);
 
         }catch (Exception e){
-            e.printStackTrace();
+            
             LOGGER.error("112[E] yx={}", yx);
         }
         return BigDecimal.ZERO;
@@ -414,7 +414,7 @@ public class MistServiceCall {
             BigDecimal bank = JSONObject.parseObject(s).getJSONObject("content").getJSONObject("month").getJSONObject("percent").getJSONObject("ind").getBigDecimal("bank");
             return BigDecimal.ONE.subtract(bank).setScale(6, BigDecimal.ROUND_HALF_UP);
         }catch (Exception e){
-            e.printStackTrace();
+            
             LOGGER.error("201[E] yx={}", yx);
         }
         return BigDecimal.ZERO;
@@ -437,7 +437,7 @@ public class MistServiceCall {
             BigDecimal bank = JSONObject.parseObject(s).getJSONObject("content").getJSONObject("home").getJSONObject("percent").getJSONObject("ind").getBigDecimal("bank");
             return BigDecimal.ONE.subtract(bank).setScale(6, BigDecimal.ROUND_HALF_UP);
         }catch (Exception e){
-            e.printStackTrace();
+            
             LOGGER.error("202[E] yx={}", yx);
         }
         return BigDecimal.ZERO;
@@ -460,7 +460,7 @@ public class MistServiceCall {
             BigDecimal bank = JSONObject.parseObject(s).getJSONObject("content").getJSONObject("company").getJSONObject("percent").getJSONObject("ind").getBigDecimal("bank");
             return BigDecimal.ONE.subtract(bank).setScale(6, BigDecimal.ROUND_HALF_UP);
         }catch (Exception e){
-            e.printStackTrace();
+            
             LOGGER.error("203[E] yx={}", yx);
         }
         return BigDecimal.ZERO;
@@ -472,17 +472,17 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_204(String yx){
+    public static BigDecimal m_204(String yx){
         return bankPoi(yx, "中信银行,中信银行(国际)", 204);
     }
 
-    public static int bankPoi(String yx, String bank, int num){
+    public static BigDecimal bankPoi(String yx, String bank, int num){
         try {
             String[] split = yx.split(",");
             String url = "http://140.205.217.247/dmpapi/geo/cyclepoi?point_x="+split[1]+"&point_y="+split[0]+"&point_r=2.5&appname=insight-api&limit=500&brandname="+bank;
             String s = HttpUtils.httpGetReq(url);
             if(StringUtils.isEmpty(s)){
-                return 0;
+                return BigDecimal.ZERO;
             }
             Object o = JSONObject.parseObject(s).getJSONObject("data").getJSONArray("area_data").get(0);
             JSONObject object = JSONObject.parseObject(JSONObject.toJSONString(o));
@@ -490,12 +490,13 @@ public class MistServiceCall {
             if(poi_total==null){
                 poi_total = 0;
             }
-            return 100-poi_total;
+            int diff = 100 - poi_total;
+            return new BigDecimal(diff+"");
         }catch (Exception e){
-            e.printStackTrace();
+            
             LOGGER.error(num+"[E] yx={}", yx);
         }
-        return 0;
+        return BigDecimal.ZERO;
     }
 
     /**
@@ -503,7 +504,7 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_205(String yx){
+    public static BigDecimal m_205(String yx){
         return bankPoi(yx, "广发银行", 205);
     }
 
@@ -512,7 +513,7 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_206(String yx){
+    public static BigDecimal m_206(String yx){
         return bankPoi(yx, "招商银行", 206);
     }
 
@@ -521,7 +522,7 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_207(String yx){
+    public static BigDecimal m_207(String yx){
         return bankPoi(yx, "中国民生银行", 207);
     }
 
@@ -530,7 +531,7 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_208(String yx){
+    public static BigDecimal m_208(String yx){
         return bankPoi(yx, "兴业银行,法国兴业银行", 208);
     }
 
@@ -539,7 +540,7 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_209(String yx){
+    public static BigDecimal m_209(String yx){
         return bankPoi(yx, "浦发银行", 209);
     }
 
@@ -548,7 +549,7 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_210(String yx){
+    public static BigDecimal m_210(String yx){
         return bankPoi(yx, "中国光大银行", 210);
     }
 
@@ -557,7 +558,7 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_211(String yx){
+    public static BigDecimal m_211(String yx){
         return bankPoi(yx, "中国银行,中国银行ATM", 211);
     }
 
@@ -566,7 +567,7 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_212(String yx){
+    public static BigDecimal m_212(String yx){
         return bankPoi(yx, "中国工商银行", 212);
     }
 
@@ -576,20 +577,20 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_301(String yx){
+    public static BigDecimal m_301(String yx){
         try {
             String url = "http://pre-mist-service.amap.com/mist/population?type=0&type_info=2.5&magic=1&loc_type=home&month=201909&yx="+yx;
             String s = HttpUtils.httpGetReq(url);
             if(StringUtils.isEmpty(s)){
-                return 0;
+                return BigDecimal.ZERO;
             }
             Integer home = JSONObject.parseObject(s).getJSONObject("content").getInteger("home");
-            return home;
+            return new BigDecimal(home+"");
         }catch (Exception e){
-            e.printStackTrace();
+            
             LOGGER.error("301[E] yx={}", yx);
         }
-        return 0;
+        return BigDecimal.ZERO;
     }
 
 
@@ -623,7 +624,7 @@ public class MistServiceCall {
             BigDecimal sum = juvenile.add(youth).add(adult).add(midage).add(highage).add(oldage);
             return sum.setScale(6, BigDecimal.ROUND_HALF_UP);
         }catch (Exception e){
-            e.printStackTrace();
+            
             LOGGER.error("302[E] yx={}", yx);
         }
         return BigDecimal.ZERO;
@@ -636,26 +637,26 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_303(String yx){
+    public static BigDecimal m_303(String yx){
         return poiAttraction(yx, "090101", 303);
     }
 
-    public static int poiAttraction(String yx, String typeCode, int num){
+    public static BigDecimal poiAttraction(String yx, String typeCode, int num){
         try {
             String url = "http://pre-mist-service.amap.com/mist/poi/attraction?type=0&type_info=2.5&magic=1&typecode="+typeCode+"&month=201909&yx="+yx;
             String s = HttpUtils.httpGetReq(url);
             if(StringUtils.isEmpty(s)){
-                return 0;
+                return BigDecimal.ZERO;
             }
             Integer integer = JSONObject.parseObject(s).getJSONObject("content").getJSONObject(typeCode).getInteger("cnt");
             if(integer!=null){
-                return integer;
+                return new BigDecimal(integer+"");
             }
         }catch (Exception e){
-            e.printStackTrace();
+            
             LOGGER.error(num+"[E] yx={}", yx);
         }
-        return 0;
+        return BigDecimal.ZERO;
     }
 
 
@@ -664,7 +665,7 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_304(String yx){
+    public static BigDecimal m_304(String yx){
         return poiAttraction(yx, "141204", 304);
     }
 
@@ -673,7 +674,7 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_305(String yx){
+    public static BigDecimal m_305(String yx){
         return poiAttraction(yx, "141203", 305);
     }
 
@@ -682,7 +683,7 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_306(String yx){
+    public static BigDecimal m_306(String yx){
         return poiAttraction(yx, "141202", 306);
     }
 
@@ -691,11 +692,11 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_307(String yx){
-        int a = poiAttraction(yx, "060100", 307);
-        int b = poiAttraction(yx, "060101", 307);
-        int c = poiAttraction(yx, "060102", 307);
-        return a+b+c;
+    public static BigDecimal m_307(String yx){
+        BigDecimal a = poiAttraction(yx, "060100", 307);
+        BigDecimal b = poiAttraction(yx, "060101", 307);
+        BigDecimal c = poiAttraction(yx, "060102", 307);
+        return a.add(b).add(c);
     }
 
     /**
@@ -703,26 +704,26 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_308(String yx){
+    public static BigDecimal m_308(String yx){
         return poiTransport(yx, "bus", 308);
     }
 
-    public static int poiTransport(String yx, String transType, int num){
+    public static BigDecimal poiTransport(String yx, String transType, int num){
         try {
             String url = "http://pre-mist-service.amap.com/mist/poi/transport?type=0&type_info=2.5&magic=1&trans_type="+transType+"&month=201909&yx="+yx;
             String s = HttpUtils.httpGetReq(url);
             if(StringUtils.isEmpty(s)){
-                return 0;
+                return BigDecimal.ZERO;
             }
             Integer integer = JSONObject.parseObject(s).getJSONObject("content").getJSONObject(transType).getInteger("cnt");
             if(integer!=null){
-                return integer;
+                return new BigDecimal(integer+"");
             }
         }catch (Exception e){
-            e.printStackTrace();
+            
             LOGGER.error(num+"[E] yx={}", yx);
         }
-        return 0;
+        return BigDecimal.ZERO;
     }
 
     /**
@@ -730,7 +731,7 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_309(String yx){
+    public static BigDecimal m_309(String yx){
         return poiTransport(yx, "subway", 309);
     }
 
@@ -739,7 +740,7 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_310(String yx){
+    public static BigDecimal m_310(String yx){
         return poiTransport(yx, "parking", 310);
     }
 
@@ -748,52 +749,52 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_311(String yx){
+    public static BigDecimal m_311(String yx){
         try {
             String tradeTypeAll = "hotel,food,bank,shop,gas,edu,sport,vehicle,hospital,school";
             String url = "http://pre-mist-service.amap.com/mist/poi/trade?type=0&type_info=2.5&magic=1&trade_type="+tradeTypeAll+"&month=201909&yx="+yx;
             String s = HttpUtils.httpGetReq(url);
             if(StringUtils.isEmpty(s)){
-                return 0;
+                return BigDecimal.ZERO;
             }
             JSONObject jsonObject = JSONObject.parseObject(s).getJSONObject("content");
             String[] splits = tradeTypeAll.split(",");
-            int sum = 0;
+            BigDecimal sum = BigDecimal.ZERO;
             for (String code : splits){
-                Integer cnt = 0;
+                BigDecimal cnt = BigDecimal.ZERO;
                 try {
-                    cnt = jsonObject.getInteger(code);
+                    cnt = new BigDecimal(String.valueOf(jsonObject.getInteger(code)));
                 }catch (Exception e){
-                    cnt = 0;
+                    cnt = BigDecimal.ZERO;
                 }
                 if(cnt!=null){
-                    sum += cnt;
+                    sum = sum.add(cnt);
                 }
             }
             return sum;
         }catch (Exception e){
-            e.printStackTrace();
+            
             LOGGER.error("311[E] yx={}", yx);
         }
-        return 0;
+        return BigDecimal.ZERO;
     }
 
-    public static int poiTrade(String yx, String tradeType, int num){
+    public static BigDecimal poiTrade(String yx, String tradeType, int num){
         try {
             String url = "http://pre-mist-service.amap.com/mist/poi/trade?type=0&type_info=2.5&magic=1&trade_type="+tradeType+"&month=201909&yx="+yx;
             String s = HttpUtils.httpGetReq(url);
             if(StringUtils.isEmpty(s)){
-                return 0;
+                return BigDecimal.ZERO;
             }
             Integer integer = JSONObject.parseObject(s).getJSONObject("content").getInteger(tradeType);
             if(integer!=null){
-                return integer;
+                return new BigDecimal(integer);
             }
         }catch (Exception e){
-            e.printStackTrace();
+            
             LOGGER.error(num+"[E] yx={}", yx);
         }
-        return 0;
+        return BigDecimal.ZERO;
     }
 
 
@@ -802,7 +803,7 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_312(String yx){
+    public static BigDecimal m_312(String yx){
         return poiTrade(yx, "food", 312);
     }
 
@@ -811,7 +812,7 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_313(String yx){
+    public static BigDecimal m_313(String yx){
         return poiTrade(yx, "shop", 313);
     }
 
@@ -820,7 +821,7 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_314(String yx){
+    public static BigDecimal m_314(String yx){
         return poiTrade(yx, "hotel", 314);
     }
 
@@ -829,7 +830,7 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_315(String yx){
+    public static BigDecimal m_315(String yx){
         return poiTrade(yx, "sport", 315);
     }
 
@@ -838,34 +839,34 @@ public class MistServiceCall {
      * @param yx
      * @return
      */
-    public static int m_316(String yx){
+    public static BigDecimal m_316(String yx){
         try {
             String typeCodeAll = "090101,150400,150104,150200,150300,150301,150302,150303,150304,060100,060101,060102,060103,080101,141201,141202,141203,141204,141205,141206,110201,110202,110203,140300,120201,140400,140500,140600,140700,140800,130101,130102,130103,130104,130105,130106,130107,120304";
             String url = "http://pre-mist-service.amap.com/mist/poi/attraction?type=0&type_info=2.5&magic=1&typecode="+typeCodeAll+"&month=201909&yx="+yx;
             String s = HttpUtils.httpGetReq(url);
             if(StringUtils.isEmpty(s)){
-                return 0;
+                return BigDecimal.ZERO;
             }
             JSONObject jsonObject = JSONObject.parseObject(s).getJSONObject("content");
             String[] splits = typeCodeAll.split(",");
-            int sum = 0;
+            BigDecimal sum = BigDecimal.ZERO;
             for (String code : splits){
-                Integer cnt = 0;
+                BigDecimal cnt = BigDecimal.ZERO;
                 try {
-                    cnt = jsonObject.getJSONObject(code).getInteger("cnt");
+                    cnt = new BigDecimal(String.valueOf(jsonObject.getJSONObject(code).getInteger("cnt")));
                 }catch (Exception e){
-                    cnt = 0;
+                    cnt = BigDecimal.ZERO;
                 }
                 if(cnt!=null){
-                    sum += cnt;
+                    sum = sum.add(cnt);
                 }
             }
             return sum;
         }catch (Exception e){
-            e.printStackTrace();
+            
             LOGGER.error("316[E] yx={}", yx);
         }
-        return 0;
+        return BigDecimal.ZERO;
     }
 
 
