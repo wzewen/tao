@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df06c820-4e26-402a-abc0-80c2d3868271" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/middleware-redis/src/main/java/com/java/tao/redis/synchronized.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="df06c820-4e26-402a-abc0-80c2d3868271" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/java-thread/target/" />
@@ -29,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/middleware-redis/src/main/java/com/java/tao/redis/read.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -37,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/middleware-redis/src/main/java/com/java/tao/redis/synchronized.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+            <state relative-caret-position="612">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -184,126 +181,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="middleware-redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="middleware-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="middleware-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="middleware-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="middleware-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="middleware-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="webservice-start" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="webservice-start" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="webservice-start" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="webservice-start" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="webservice-start" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="webservice-start" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="webservice-start" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="gaode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="webservice-start" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="gaode" type="462c0819:PsiDirectoryNode" />
-              <item name="pingan_20191114" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -434,8 +312,8 @@
       <item itemvalue="Application.Run (2)" />
       <item itemvalue="Application.Run (3)" />
       <item itemvalue="Application.Run (4)" />
-      <item itemvalue="Spring Boot.RedisApplication" />
       <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.RedisApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -476,7 +354,7 @@
       <workItem from="1573551927371" duration="3584000" />
       <workItem from="1573630596353" duration="24281000" />
       <workItem from="1573781898851" duration="17625000" />
-      <workItem from="1574042224966" duration="20893000" />
+      <workItem from="1574042224966" duration="21192000" />
     </task>
     <task id="LOCAL-00001" summary="get into tao">
       <created>1571124066329</created>
@@ -758,11 +636,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574070199587</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="redis synchronized">
+      <created>1574131070803</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1574131070803</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229782000" />
+    <option name="totallyTimeSpent" value="230081000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -775,7 +660,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="803" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21745351" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -877,7 +761,8 @@
     <MESSAGE value="springboot fixed" />
     <MESSAGE value="gaode pingan" />
     <MESSAGE value="redis" />
-    <option name="LAST_COMMIT_MESSAGE" value="redis" />
+    <MESSAGE value="redis synchronized" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis synchronized" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/middleware-rabbitmq/src/main/java/com/java/tao/rabbitmq/springboot/controller/RabbitmqController.java">
@@ -1358,14 +1243,14 @@
     <entry file="file://$PROJECT_DIR$/middleware-redis/src/main/java/com/java/tao/redis/read.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/middleware-redis/src/main/java/com/java/tao/redis/synchronized.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+        <state relative-caret-position="612">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
         </state>
       </provider>
     </entry>
