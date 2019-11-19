@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df06c820-4e26-402a-abc0-80c2d3868271" name="Default Changelist" comment="" />
+    <list default="true" id="df06c820-4e26-402a-abc0-80c2d3868271" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/read.txt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/java-thread/target/" />
@@ -32,6 +36,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/read.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="32" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/middleware-redis/src/main/java/com/java/tao/redis/synchronized.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
@@ -98,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-thread/pom.xml" />
         <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/i/schedule_task_delay/Run.java" />
         <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/a/task_timer_1/MyTask.java" />
         <option value="$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter5/a/task_timer_1/Test1.java" />
@@ -123,7 +135,6 @@
         <option value="$PROJECT_DIR$/middleware-activemq/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/middleware-activemq/pom.xml" />
         <option value="$PROJECT_DIR$/middleware-redis/src/main/java/com/java/tao/redis/read.txt" />
-        <option value="$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/read.txt" />
         <option value="$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/cases/ListNode.java" />
         <option value="$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/cases/Solution.java" />
         <option value="$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/controller/PinganController.java" />
@@ -149,6 +160,8 @@
         <option value="$PROJECT_DIR$/middleware-redis/src/main/java/com/java/tao/redis/springboot/RedisController.java" />
         <option value="$PROJECT_DIR$/webservice-start/pom.xml" />
         <option value="$PROJECT_DIR$/middleware-redis/src/main/java/com/java/tao/redis/synchronized.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/read.txt" />
       </list>
     </option>
   </component>
@@ -181,7 +194,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -197,7 +220,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/middleware-redis/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -355,6 +378,7 @@
       <workItem from="1573630596353" duration="24281000" />
       <workItem from="1573781898851" duration="17625000" />
       <workItem from="1574042224966" duration="21192000" />
+      <workItem from="1574131566684" duration="254000" />
     </task>
     <task id="LOCAL-00001" summary="get into tao">
       <created>1571124066329</created>
@@ -643,11 +667,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574131070803</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Java is my tao.">
+      <created>1574131687309</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1574131687309</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230081000" />
+    <option name="totallyTimeSpent" value="230335000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -676,8 +707,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32911393" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.6061885" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.6061885" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.2616034" />
@@ -762,29 +793,10 @@
     <MESSAGE value="gaode pingan" />
     <MESSAGE value="redis" />
     <MESSAGE value="redis synchronized" />
-    <option name="LAST_COMMIT_MESSAGE" value="redis synchronized" />
+    <MESSAGE value="Java is my tao." />
+    <option name="LAST_COMMIT_MESSAGE" value="Java is my tao." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/middleware-rabbitmq/src/main/java/com/java/tao/rabbitmq/springboot/controller/RabbitmqController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-rabbitmq/src/main/java/com/java/tao/rabbitmq/springboot/config/Provider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/middleware-rabbitmq/src/main/java/com/java/tao/rabbitmq/springboot/RabbitmqApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -899,13 +911,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/read.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/utils/HttpUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -939,13 +944,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/pingan_20191114/aa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="49" lean-forward="true" selection-end-line="100" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/pingan_20191114/aa.java" />
     <entry file="file://$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/pingan_20191114/PASortResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1240,6 +1239,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/middleware-redis/src/main/java/com/java/tao/redis/synchronized.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="15" selection-start-column="15" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/read.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/middleware-redis/src/main/java/com/java/tao/redis/read.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1247,10 +1266,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware-redis/src/main/java/com/java/tao/redis/synchronized.txt">
+    <entry file="file://$PROJECT_DIR$/read.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        <state relative-caret-position="17">
+          <caret line="1" column="32" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
         </state>
       </provider>
     </entry>
