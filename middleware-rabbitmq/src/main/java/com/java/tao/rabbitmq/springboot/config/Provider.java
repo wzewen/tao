@@ -13,7 +13,7 @@ public class Provider {
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
-    public static String emailRoute = "springboot.email";
+    public static String emailRoute = "springboot.email.s";
     public static String smsRoute = "springboot.sms";
     public static String bothRoute = "springboot.email.sms";
 
@@ -22,7 +22,7 @@ public class Provider {
      * @param message
      */
     public void sendEmail(String message){
-        rabbitTemplate.convertAndSend(RabbitConf.EXCHANGE_NAME, emailRoute, message);
+        rabbitTemplate.convertAndSend(emailRoute, message);
         LOGGER.info("send email message : "+message);
     }
 

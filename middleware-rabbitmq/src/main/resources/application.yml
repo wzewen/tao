@@ -9,3 +9,19 @@ spring:
     username: guest
     password: guest
     virtual-host: /
+    #消息发送到交换机确认机制，是否确认回调
+    publisher-confirms: true
+    #消息发送到交换机确认机制，是否返回回调
+    publisher-returns: true
+    #开启ack
+    listener:
+      direct:
+        acknowledge-mode: manual
+        retry:
+          enabled: true
+      simple:
+        #采用手动应答模式
+        acknowledge-mode: manual
+        #是否支持重试
+        retry:
+          enabled: true

@@ -20,9 +20,9 @@ public class RabbitmqController {
     @RequestMapping("/send")
     @ResponseBody
     public String send(@RequestParam(name = "message") String message){
-        provider.sendSms(message);
+        //provider.sendSms(message);
         provider.sendEmail(message);
-        provider.sendBoth(message);
+       // provider.sendBoth(message);
         return "success";
     }
 }
