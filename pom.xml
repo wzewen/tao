@@ -15,6 +15,7 @@
         <module>middleware-rabbitmq</module>
         <module>webservice-start</module>
         <module>middleware-redis</module>
+        <module>java-design</module>
     </modules>
 
 </project>

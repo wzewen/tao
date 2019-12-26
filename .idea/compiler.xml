@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="middleware-rabbitmq" />
-        <module name="java-thread" />
-        <module name="webservice-start" />
-        <module name="middleware-activemq" />
         <module name="middleware-redis" />
+        <module name="java-design" />
+        <module name="java-thread" />
+        <module name="middleware-activemq" />
+        <module name="middleware-rabbitmq" />
+        <module name="webservice-start" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
