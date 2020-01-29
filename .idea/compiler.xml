@@ -13,6 +13,7 @@
         <module name="middleware-activemq" />
         <module name="middleware-rabbitmq" />
         <module name="webservice-start" />
+        <module name="java-socket" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
