@@ -17,6 +17,7 @@
         <module>middleware-redis</module>
         <module>java-design</module>
         <module>java-socket</module>
+        <module>java-io</module>
     </modules>
 
 </project>
