@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df06c820-4e26-402a-abc0-80c2d3868271" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/BufferedReaderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/BufferedWriteDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/FileInputStreamReaderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/FileOutputStreamWriteDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/BufferedReaderDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/BufferedWriteDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/CopyFileDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,14 +42,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/BufferedReaderDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="136">
+              <caret line="8" column="98" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="98" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/BufferedReaderDemo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="98" lean-forward="true" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="98" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/BufferedWriteDemo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="99" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="99" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/CopyFileDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -117,9 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/adapter/AdvanceMediaPlayer.java" />
-        <option value="$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/adapter/VlcPlayer.java" />
-        <option value="$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/adapter/Mp4Player.java" />
         <option value="$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/adapter/MediaAdapter.java" />
         <option value="$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/adapter/AudioPlayer.java" />
         <option value="$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/adapter/AdapterPatternDemo.java" />
@@ -168,6 +196,9 @@
         <option value="$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/FileInputStreamReaderDemo.java" />
         <option value="$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/BufferedWriteDemo.java" />
         <option value="$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/BufferedReaderDemo.java" />
+        <option value="$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/BufferedReaderDemo2.java" />
+        <option value="$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/BufferedWriteDemo2.java" />
+        <option value="$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/CopyFileDemo.java" />
       </list>
     </option>
   </component>
@@ -202,62 +233,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="java-io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="java-io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="java-io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="java-io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="java-io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="java-io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,9 +284,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BufferedReaderDemo">
-    <configuration name="BufferedInputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.tao.io.base.BufferedInputStreamDemo" />
+  <component name="RunManager" selected="Application.CopyFileDemo">
+    <configuration name="BufferedReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.tao.io.base.BufferedReaderDemo" />
       <module name="java-io" />
       <extension name="coverage">
         <pattern>
@@ -322,8 +298,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BufferedReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.tao.io.base.BufferedReaderDemo" />
+    <configuration name="BufferedReaderDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.tao.io.base.BufferedReaderDemo2" />
       <module name="java-io" />
       <extension name="coverage">
         <pattern>
@@ -348,8 +324,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileInputStreamReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.tao.io.base.FileInputStreamReaderDemo" />
+    <configuration name="BufferedWriteDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.tao.io.base.BufferedWriteDemo2" />
       <module name="java-io" />
       <extension name="coverage">
         <pattern>
@@ -361,8 +337,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileOutputStreamWriteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.tao.io.base.FileOutputStreamWriteDemo" />
+    <configuration name="CopyFileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.tao.io.base.CopyFileDemo" />
       <module name="java-io" />
       <extension name="coverage">
         <pattern>
@@ -396,22 +372,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BufferedInputStreamDemo" />
-      <item itemvalue="Application.FileOutputStreamWriteDemo" />
-      <item itemvalue="Application.FileInputStreamReaderDemo" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.ActivemqApplication" />
       <item itemvalue="Spring Boot.RedisApplication" />
       <item itemvalue="Application.BufferedWriteDemo" />
       <item itemvalue="Application.BufferedReaderDemo" />
+      <item itemvalue="Application.BufferedReaderDemo2" />
+      <item itemvalue="Application.BufferedWriteDemo2" />
+      <item itemvalue="Application.CopyFileDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CopyFileDemo" />
+        <item itemvalue="Application.BufferedWriteDemo2" />
+        <item itemvalue="Application.BufferedReaderDemo2" />
         <item itemvalue="Application.BufferedReaderDemo" />
         <item itemvalue="Application.BufferedWriteDemo" />
-        <item itemvalue="Application.FileInputStreamReaderDemo" />
-        <item itemvalue="Application.FileOutputStreamWriteDemo" />
-        <item itemvalue="Application.BufferedInputStreamDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -465,14 +441,7 @@
       <workItem from="1579070897068" duration="655000" />
       <workItem from="1580264018272" duration="5603000" />
       <workItem from="1580435921964" duration="4693000" />
-      <workItem from="1580542383780" duration="590000" />
-    </task>
-    <task id="LOCAL-00002" summary="get into tao">
-      <created>1571124184618</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1571124184618</updated>
+      <workItem from="1580542383780" duration="2283000" />
     </task>
     <task id="LOCAL-00003" summary="get into tao">
       <created>1571124201334</created>
@@ -810,11 +779,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580473789745</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="IO reader and write">
+      <created>1580543189717</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1580543189718</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301503000" />
+    <option name="totallyTimeSpent" value="303196000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -827,9 +803,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="799" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24678111" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24678111" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -839,7 +814,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39179632" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39179632" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36209336" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -906,7 +881,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="matrix thread group test" />
     <MESSAGE value="matrix fun by thread pool" />
     <MESSAGE value="abapi pingan 201909 data" />
     <MESSAGE value="gaode" />
@@ -931,7 +905,8 @@
     <MESSAGE value="socket" />
     <MESSAGE value="IO fileOutPutStream" />
     <MESSAGE value="IO input and output" />
-    <option name="LAST_COMMIT_MESSAGE" value="IO input and output" />
+    <MESSAGE value="IO reader and write" />
+    <option name="LAST_COMMIT_MESSAGE" value="IO reader and write" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -946,45 +921,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/filter/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding>
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/filter/CriteriaPatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#161#169#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/observer/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/observer/OctalObserver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1389,11 +1325,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/BufferedReaderDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="136">
+          <caret line="8" column="98" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="98" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/BufferedReaderDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="98" lean-forward="true" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/BufferedWriteDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="99" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/CopyFileDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
