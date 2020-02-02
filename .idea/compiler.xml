@@ -8,11 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="middleware-rabbitmq" />
-        <module name="java-io" />
         <module name="middleware-redis" />
         <module name="java-design" />
-        <module name="middleware-activemq" />
         <module name="java-thread" />
+        <module name="middleware-activemq" />
+        <module name="java-io" />
         <module name="webservice-start" />
         <module name="java-socket" />
       </profile>
