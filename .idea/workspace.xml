@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df06c820-4e26-402a-abc0-80c2d3868271" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/ObjectStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/PropertiesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/bean/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/read.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/tcp/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/tcp/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/udp/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/udp/Sender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-io/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-io/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,22 +33,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/ObjectStreamDemo.java">
+        <entry file="file://$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/tcp/Sender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="115" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="115" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/PropertiesDemo.java">
+        <entry file="file://$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/tcp/Receiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="136">
+              <caret line="8" column="63" lean-forward="true" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,29 +54,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Properties.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/net/ServerSocket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="767" column="16" selection-start-line="767" selection-start-column="16" selection-end-line="767" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/bean/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-              <folding>
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-2927">
+              <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -145,9 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/filter/CriteriaMale.java" />
-        <option value="$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/filter/CriteriaFemale.java" />
-        <option value="$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/filter/CriteriaSingle.java" />
         <option value="$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/filter/AndCriteria.java" />
         <option value="$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/filter/OrCriteria.java" />
         <option value="$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/filter/CriteriaPatternDemo.java" />
@@ -196,6 +171,9 @@
         <option value="$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/bean/Person.java" />
         <option value="$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/ObjectStreamDemo.java" />
         <option value="$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/PropertiesDemo.java" />
+        <option value="$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/udp/Receiver.java" />
+        <option value="$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/udp/Sender.java" />
+        <option value="$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/tcp/Receiver.java" />
       </list>
     </option>
   </component>
@@ -228,7 +206,83 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="java-socket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="java-socket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="java-socket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="java-socket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="java-socket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="java-socket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="java-socket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tao" type="462c0819:PsiDirectoryNode" />
+              <item name="java-socket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="UDP" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -281,65 +335,65 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PropertiesDemo">
-    <configuration name="BufferedWriteDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.tao.io.base.BufferedWriteDemo2" />
-      <module name="java-io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.tao.io.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CopyAllFromDir" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.tao.io.base.CopyAllFromDir" />
-      <module name="java-io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.tao.io.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CopyFileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.tao.io.base.CopyFileDemo" />
-      <module name="java-io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.tao.io.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ObjectStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.tao.io.base.ObjectStreamDemo" />
-      <module name="java-io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.tao.io.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Sender (1)">
     <configuration name="PropertiesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.tao.io.base.PropertiesDemo" />
       <module name="java-io" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.java.tao.io.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Receiver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.tao.socket.base.tcp.Receiver" />
+      <module name="java-socket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.tao.socket.base.tcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Receiver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.tao.socket.base.udp.Receiver" />
+      <module name="java-socket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.tao.socket.base.udp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sender (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.tao.socket.base.tcp.Sender" />
+      <module name="java-socket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.tao.socket.base.tcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.tao.socket.base.udp.Sender" />
+      <module name="java-socket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.tao.socket.base.udp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -369,22 +423,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BufferedWriteDemo2" />
-      <item itemvalue="Application.CopyFileDemo" />
-      <item itemvalue="Application.CopyAllFromDir" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.ActivemqApplication" />
       <item itemvalue="Spring Boot.RedisApplication" />
-      <item itemvalue="Application.ObjectStreamDemo" />
       <item itemvalue="Application.PropertiesDemo" />
+      <item itemvalue="Application.Sender" />
+      <item itemvalue="Application.Receiver" />
+      <item itemvalue="Application.Receiver (1)" />
+      <item itemvalue="Application.Sender (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sender (1)" />
+        <item itemvalue="Application.Receiver (1)" />
+        <item itemvalue="Application.Sender" />
+        <item itemvalue="Application.Receiver" />
         <item itemvalue="Application.PropertiesDemo" />
-        <item itemvalue="Application.ObjectStreamDemo" />
-        <item itemvalue="Application.CopyAllFromDir" />
-        <item itemvalue="Application.CopyFileDemo" />
-        <item itemvalue="Application.BufferedWriteDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -439,14 +493,7 @@
       <workItem from="1580264018272" duration="5603000" />
       <workItem from="1580435921964" duration="4693000" />
       <workItem from="1580542383780" duration="4123000" />
-      <workItem from="1580614042401" duration="1729000" />
-    </task>
-    <task id="LOCAL-00005" summary="ReentrantLock 1-9 node">
-      <created>1571136017486</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1571136017486</updated>
+      <workItem from="1580614042401" duration="2562000" />
     </task>
     <task id="LOCAL-00006" summary="ReentrantLock 10-16 node and ReentrantReadWriteLock 1-4 node">
       <created>1571215437557</created>
@@ -784,11 +831,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580563741892</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="IO properties">
+      <created>1580639094320</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1580639094321</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306765000" />
+    <option name="totallyTimeSpent" value="307598000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -801,6 +855,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="799" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23247497" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -879,7 +934,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="abapi pingan 201909 data" />
     <MESSAGE value="gaode" />
     <MESSAGE value="first" />
     <MESSAGE value="Java core 高洪岩" />
@@ -904,7 +958,8 @@
     <MESSAGE value="IO input and output" />
     <MESSAGE value="IO reader and write" />
     <MESSAGE value="IO reader and write copy" />
-    <option name="LAST_COMMIT_MESSAGE" value="IO reader and write copy" />
+    <MESSAGE value="IO properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="IO properties" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -919,66 +974,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/template/Football.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding>
-            <element signature="e#96#97#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/template/Cricket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/template/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/template/TemplatePatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/mvc/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/mvc/StudentView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1100,27 +1095,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/net/DatagramPacket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-461">
-          <caret line="82" column="11" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/UDP/Send.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/UDP/Received.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1134,13 +1112,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/net/ServerSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-565">
-          <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1335,16 +1306,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/ObjectStreamDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="115" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="115" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Properties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -1356,6 +1317,84 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-io/src/main/java/com/java/tao/io/base/ObjectStreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="115" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="115" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/read.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/net/DatagramPacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="98" column="11" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
+          <folding>
+            <element signature="e#2362#2363#0" expanded="true" />
+            <element signature="e#2399#2400#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/UDP/Received.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/udp/Sender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/udp/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="63" lean-forward="true" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/tcp/Sender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/net/ServerSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2927">
+          <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/tcp/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="63" lean-forward="true" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
