@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df06c820-4e26-402a-abc0-80c2d3868271" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/read.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/tcp/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/tcp/Sender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/udp/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/udp/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/smartfox/common_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-thread/src/test/java/com/java/tao/thread/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-thread/src/test/java/com/java/tao/thread/ScheduledExecutorServiceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,32 +32,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/tcp/Sender.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/tcp/Receiver.java">
+        <entry file="file://$PROJECT_DIR$/java-thread/src/test/java/com/java/tao/thread/LRUCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="63" lean-forward="true" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+            <state relative-caret-position="425">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/net/ServerSocket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2927">
-              <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -123,11 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/filter/AndCriteria.java" />
-        <option value="$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/filter/OrCriteria.java" />
-        <option value="$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/filter/CriteriaPatternDemo.java" />
-        <option value="$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/filter/Person.java" />
-        <option value="$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/proxy/RealImage.java" />
         <option value="$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/proxy/Image.java" />
         <option value="$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/proxy/ProxyImage.java" />
         <option value="$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/proxy/ProxyPatternDemo.java" />
@@ -174,6 +151,11 @@
         <option value="$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/udp/Receiver.java" />
         <option value="$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/udp/Sender.java" />
         <option value="$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/tcp/Receiver.java" />
+        <option value="$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/tcp/Sender.java" />
+        <option value="$PROJECT_DIR$/java-thread/pom.xml" />
+        <option value="$PROJECT_DIR$/java-thread/src/test/java/com/java/tao/thread/ScheduledExecutorServiceDemo.java" />
+        <option value="$PROJECT_DIR$/java-thread/src/test/java/com/java/tao/thread/LRU.java" />
+        <option value="$PROJECT_DIR$/java-thread/src/test/java/com/java/tao/thread/LRUCache.java" />
       </list>
     </option>
   </component>
@@ -206,85 +188,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="java-socket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="java-socket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="java-socket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="java-socket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="java-socket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="socket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="java-socket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="socket" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="java-socket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="socket" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="tcp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tao" type="462c0819:PsiDirectoryNode" />
-              <item name="java-socket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="socket" type="462c0819:PsiDirectoryNode" />
-              <item name="UDP" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,20 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Sender (1)">
-    <configuration name="PropertiesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.tao.io.base.PropertiesDemo" />
-      <module name="java-io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.tao.io.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ScheduledExecutorServiceDemo">
     <configuration name="Receiver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.tao.socket.base.tcp.Receiver" />
       <module name="java-socket" />
@@ -368,6 +261,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.java.tao.socket.base.udp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScheduledExecutorServiceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.tao.thread.ScheduledExecutorServiceDemo" />
+      <module name="java-thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.tao.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -423,22 +329,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Spring Boot.ActivemqApplication" />
-      <item itemvalue="Spring Boot.RedisApplication" />
-      <item itemvalue="Application.PropertiesDemo" />
       <item itemvalue="Application.Sender" />
       <item itemvalue="Application.Receiver" />
       <item itemvalue="Application.Receiver (1)" />
       <item itemvalue="Application.Sender (1)" />
+      <item itemvalue="Application.ScheduledExecutorServiceDemo" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.ActivemqApplication" />
+      <item itemvalue="Spring Boot.RedisApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ScheduledExecutorServiceDemo" />
         <item itemvalue="Application.Sender (1)" />
         <item itemvalue="Application.Receiver (1)" />
         <item itemvalue="Application.Sender" />
         <item itemvalue="Application.Receiver" />
-        <item itemvalue="Application.PropertiesDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -493,14 +399,12 @@
       <workItem from="1580264018272" duration="5603000" />
       <workItem from="1580435921964" duration="4693000" />
       <workItem from="1580542383780" duration="4123000" />
-      <workItem from="1580614042401" duration="2562000" />
-    </task>
-    <task id="LOCAL-00006" summary="ReentrantLock 10-16 node and ReentrantReadWriteLock 1-4 node">
-      <created>1571215437557</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1571215437557</updated>
+      <workItem from="1580614042401" duration="3305000" />
+      <workItem from="1581056666575" duration="1256000" />
+      <workItem from="1581496559591" duration="260000" />
+      <workItem from="1581497176072" duration="1925000" />
+      <workItem from="1581731416438" duration="1132000" />
+      <workItem from="1581903083801" duration="1565000" />
     </task>
     <task id="LOCAL-00007" summary="timer">
       <created>1571303407322</created>
@@ -838,11 +742,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580639094321</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="socket end">
+      <created>1580640126120</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1580640126120</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="307598000" />
+    <option name="totallyTimeSpent" value="314479000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -857,7 +768,7 @@
     <frame x="0" y="23" width="1440" height="799" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23247497" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22961374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -876,10 +787,11 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.6053748" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.2602546" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.31966054" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32911393" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3281471" />
+      <window_info anchor="bottom" id="TALA" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -890,6 +802,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297568" />
+      <window_info anchor="right" id="Aone" order="10" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20600858" />
@@ -934,7 +847,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="gaode" />
     <MESSAGE value="first" />
     <MESSAGE value="Java core 高洪岩" />
     <MESSAGE value="Java practice" />
@@ -959,7 +871,8 @@
     <MESSAGE value="IO reader and write" />
     <MESSAGE value="IO reader and write copy" />
     <MESSAGE value="IO properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="IO properties" />
+    <MESSAGE value="socket end" />
+    <option name="LAST_COMMIT_MESSAGE" value="socket end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -974,57 +887,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/mvc/StudentView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/mvc/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-design/src/main/java/com/java/tao/design/mvc/MVCPatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/utils/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1989">
-          <caret line="145" column="29" selection-start-line="145" selection-start-column="29" selection-end-line="145" selection-end-column="29" />
-          <folding>
-            <element signature="e#5774#5775#0" expanded="true" />
-            <element signature="e#5798#5799#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="267" column="35" selection-start-line="267" selection-start-column="35" selection-end-line="267" selection-end-column="35" />
-          <folding>
-            <element signature="e#19327#19328#0" expanded="true" />
-            <element signature="e#19410#19411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/gaode/beijing_20190109/Run.java" />
     <entry file="file://$PROJECT_DIR$/middleware-activemq/src/main/java/com/java/tao/activemq/springboot/config/ActiveMQConf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1357,10 +1219,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/net/ServerSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2927">
+          <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/net/Socket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2001">
+          <caret line="82" column="11" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
+          <folding>
+            <element signature="e#1829#1830#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/tcp/Sender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/tcp/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/udp/Sender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <state relative-caret-position="170">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1369,32 +1269,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/udp/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="63" lean-forward="true" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+        <state relative-caret-position="187">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/tcp/Sender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/net/ServerSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2927">
-          <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-socket/src/main/java/com/java/tao/socket/base/tcp/Receiver.java">
+    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/java/tao/thread/core/chapter4/A/ReentrantLock/f/fair_nofair_lock/NotFairRun.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="63" lean-forward="true" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/ScheduledExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="153" column="30" selection-start-line="153" selection-start-column="30" selection-end-line="153" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webservice-start/src/main/java/com/java/tao/controller/PingAnController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-thread/src/test/java/com/java/tao/thread/ScheduledExecutorServiceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#631#751#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-thread/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-thread/src/test/java/com/java/tao/thread/LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
